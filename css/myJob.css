@@ -1,0 +1,80 @@
+#myJob {
+    background-color: #fff;
+}
+
+#myJob h3 {
+    height: 50px;
+    color: #37424f;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'HelveticaBold', sans-serif;
+    background-image: url(../img/bg_880x50.jpeg);
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#myJob div.tools {
+    height: 390px;  
+    text-align: center;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+#myJob div.tools img{
+    width: 672px;
+}
+
+#myJob h4 {
+    height: 30px;
+    color: #37424f;
+    letter-spacing: 10px;
+    font-family: 'HelveticaBold', sans-serif;
+    font-size: 18px; 
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+#myJob div.figures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin: 65px 0 75px 0;
+}
+
+#myJob div.figures .idea {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 180px 30px 30px;
+    text-align: center;
+}
+
+#myJob div.figures .idea img {
+    margin-left: 50px;
+}
+
+#myJob div.figures .project {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 180px 30px 30px;
+    text-align: center;
+}
+
+#myJob div.figures .project img {
+    margin-left: 42px;
+}
+
+#myJob div.figures .mobile {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 180px 30px 30px;
+    text-align: center;
+}
+
+#myJob div.figures .mobile img {
+    margin-left: 70px;
+}

@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import "../css/reset.css";
 @import "../css/header.css";
-@import "../css/main.css";
+@import "../css/myPresentation.css";
+@import "../css/about.css";
+@import "../css/myJob.css";
+@import "../css/links.css";
+@import "../css/portfolio.css";
+@import "../css/contacts.css";
 @import "../css/footer.css";
 @font-face {
 		font-family: "HelveticaRegular";
 		src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
 		src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
-		url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
-		url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+		/*url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),*/
+		/*url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");*/
 		font-style: normal;
 		font-weight: normal;
 }
@@ -17,8 +22,8 @@
 		font-family: "HelveticaBold";
 		src: url("../fonts/HelveticaBold/HelveticaBold.eot");
 		src: url("../fonts/HelveticaBold/HelveticaBold.eot?#iefix")format("embedded-opentype"),
-		url("../fonts/HelveticaBold/HelveticaBold.woff") format("woff"),
-		url("../fonts/HelveticaBold/HelveticaBold.ttf") format("truetype");
+		/*url("../fonts/HelveticaBold/HelveticaBold.woff") format("woff"),*/
+		/*url("../fonts/HelveticaBold/HelveticaBold.ttf") format("truetype");*/
 		font-style: normal;
 		font-weight: bold;
 }

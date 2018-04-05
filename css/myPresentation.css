@@ -1,0 +1,37 @@
+main .wrapper {
+    max-width: 880px;
+    margin: auto;
+}
+
+#myPresentation {
+    /*background-color: #000;*/
+    background-image: url(../img/bg_main.JPG);
+    
+    
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    height: 90vh;
+    margin-top: -6px;
+}
+
+#myPresentation h1 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'HelveticaBold', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 90px;
+}
+
+#myPresentation h2 {
+    color: #fff;
+    letter-spacing: 10px;
+    font-family: 'HelveticaBold', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 20px;
+}

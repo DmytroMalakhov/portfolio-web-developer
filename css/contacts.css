@@ -1,0 +1,81 @@
+#contacts h3 {
+    height: 50px;
+    color: #37424f;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'HelveticaBold', sans-serif;
+    background-image: url(../img/bg_880x50.jpeg);
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#contacts form {
+    margin: 75px 0;
+    text-align: center;
+}
+
+#contacts form label[for="name"] {
+    padding-left: 31px;
+    margin-right: 44px;
+    vertical-align: top;
+    position: relative;
+    top: 12px;
+    font-weight: bold;
+    color: #37424f;
+}
+
+#contacts form label[for="email"] {
+    padding-left: 30px;
+    margin-right: 30px;
+    vertical-align: top;
+    position: relative;
+    top: 12px;
+    font-weight: bold;
+    color: #37424f;
+}
+
+#contacts form label[for="message"] {
+    padding-left: 30px;
+    margin-right: 23px;
+    vertical-align: top;
+    position: relative;
+    top: 12px;
+    font-weight: bold;
+    color: #37424f
+}
+
+#contacts form input {
+    height: 35px;
+    width: 535px;
+    padding: 0 0 0 3px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1d1d1d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #b5b5b5;
+}
+
+#contacts form textarea {
+    height: 105px;
+    width: 535px;
+    padding: 5px 0 0 3px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1d1d1d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #b5b5b5;
+}
+
+#contacts form button {
+    background-color: #37424f;
+    color: #fff;
+    width: 165px;
+    text-align: center;
+    margin-left: 135px;
+    padding: 1px 6px;
+}

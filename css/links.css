@@ -1,9 +1,4 @@
-footer .wrapper {
-    max-width: 880px;
-    margin: auto;
-}
-
-footer .wrapper p {
+#links h3 {
     height: 50px;
     color: #37424f;
     text-transform: uppercase;
@@ -15,4 +10,14 @@ footer .wrapper p {
     text-align: center;
     padding-top: 20px;
     box-sizing: border-box;
+}
+
+#links div {
+    margin: 75px 0;
+    text-align: center;
+}
+
+#links div img {
+    height: 100px;
+    margin: 0 70px;
 }

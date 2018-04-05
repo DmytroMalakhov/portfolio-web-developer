@@ -85,44 +85,41 @@
                         <img src="img/allright-16mb-com.png" alt="photo of web page 'allright-16mb-com'">
                         <h5>allright.16mb.com</h5>
                         <p>This is my first site that I posted on the Internet. The template was based on the bootstrap. The template was modified and divided into pages</p>
-                        <input type="submit" value="open">
+                        <button type="submit">open</button>
                     </div>
                     <div class="view_2">
                         <img src="img/hookah-ml.png" alt="photo of web page 'hookah-ml.png'">
                         <h5>hookah.ml</h5>
                         <p>This is my first online store, which I published on the Internet. The interface was developed by me</p>
-                        <input type="submit" value="open">
+                        <button type="submit">open</button>
                     </div>
                     <div class="view_3">
                         <img src="img/malakhov-ml.png" alt="photo of web page 'malakhov-ml.png'">
                         <h5>malakhov.ml</h5>
                         <p>This site is one of my last works. In which were connected Buttrap and Javascript, at the time of writing is not finished</p>
-                        <input type="submit" value="open">
+                        <button type="submit">open</button>
                     </div>
                     <div class="view_4">
                         <img src="img/malakhov-tk.png" alt="photo of web page 'malakhov-tk.png'">
                         <h5>malakhov.tk</h5>
                         <p>The development of this site is based on the practice of parallax javascript. Was designed as a greeting card for the new year</p>
-                        <input type="submit" value="open">
+                        <button type="submit">open</button>
                     </div>
                 </div>
             </section>
             <section id="contacts">
                 <h3>CONTACT ME</h3>
-                <form method="post" action="http://formspree.io/dmytro.malakhov@outlook.com">
-                    <label>Your Name:
-                        <input type="text" name="client_name" placeholder="Name*" required>
-                    </label>
+                <form method="post" action="https://formspree.io/dmytro.malakhov@outlook.com">
+                    <label for="name">Your Name:</label>
+                        <input type="text" name="client_name" placeholder="Your Name*" id="name" required>
                     <br>
-                    <label>Your Address:
-                        <input type="email" name="client_email" placeholder="Email Address*" required>
-                    </label>
+                    <label for="email">Your Address:</label>
+                        <input type="email" name="client_email" placeholder="Email Address*" id="email" required>
                     <br>
-                    <label>Your Message:
-                    <textarea name="client_message" cols="30" rows="10" placeholder="Tell me about your project... what is it? Why are you doing it? What do you hope to accomplish? How can I help? Timeline and budget details are also appreciated. *" required></textarea>
-                    </label>
+                    <label for="message">Your Message:</label>
+                    <textarea name="client_message" cols="30" rows="10" placeholder="Tell me about your project... what is it? Why are you doing it? What do you hope to accomplish? How can I help? Timeline and budget details are also appreciated. *" id="message" required></textarea>
                     <br>
-                    <input type="submit" value="send">
+                    <button type="submit">send</button>
                 </form>
             </section>
         </div>

@@ -1,0 +1,75 @@
+#portfolio{
+    text-align: center;    
+}
+
+#portfolio h3 {
+    height: 50px;
+    color: #37424f;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'HelveticaBold', sans-serif;
+    background-image: url(../img/bg_880x50.jpeg);
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#portfolio div.views {
+    margin: 75px 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 68px;
+}
+
+#portfolio div.views .view_1,
+#portfolio div.views .view_2,
+#portfolio div.views .view_3,
+#portfolio div.views .view_4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 230px 40px 60px 30px;
+}
+
+#portfolio div.views .view_1 img,
+#portfolio div.views .view_2 img,
+#portfolio div.views .view_3 img,
+#portfolio div.views .view_4 img {
+    width: 313px;
+    margin-left: 60px;
+}
+
+#portfolio div.views .view_1 h5,
+#portfolio div.views .view_2 h5,
+#portfolio div.views .view_3 h5,
+#portfolio div.views .view_4 h5 {
+    text-align: center;
+    color: #000;
+    font-family: 'HelveticaRegular', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+#portfolio div.views .view_1 p,
+#portfolio div.views .view_2 p,
+#portfolio div.views .view_3 p,
+#portfolio div.views .view_4 p {
+    width: 313px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+#portfolio div.views .view_1 button,
+#portfolio div.views .view_2 button,
+#portfolio div.views .view_3 button,
+#portfolio div.views .view_4 button {
+    background-color: #37424f;
+    color: #fff;
+    width: 165px;
+    text-align: center;
+    margin-left: 135px;
+}

@@ -1,8 +1,13 @@
 header .wrapper {
     max-width: 880px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+    position: relative;
+    /*justify-content: space-between;*/
+}
+
+header .wrapper .fixed {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.98);
 }
 
 header .wrapper img {
@@ -12,6 +17,8 @@ header .wrapper img {
 
 header .wrapper nav {
     margin-top: -7px;
+    margin-left: 372px;
+    float: right;
 }
 
 header .wrapper nav ul {
@@ -24,6 +31,7 @@ header .wrapper nav ul {
 
 header .wrapper nav li {
     display: inline-block;
+    z-index: 100;
 }
 
 header .wrapper nav li .action {
@@ -36,7 +44,7 @@ header .wrapper nav a {
     font-weight: bold;
     font-family: 'HelveticaBold', sans-serif;
     color: #000;
-    padding: 31px 10px;
+    padding: 33px 10px;
     text-transform: uppercase;
 }
 

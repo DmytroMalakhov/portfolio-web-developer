@@ -1,3 +1,12 @@
+#links {
+    background-image: url(../img/links.jpeg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+
 #links h3 {
     height: 50px;
     color: #37424f;
@@ -13,11 +22,13 @@
 }
 
 #links div {
-    margin: 75px 0;
+    padding-top: 125px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 #links div img {
     height: 100px;
-    margin: 0 70px;
+    padding: 0 70px;
+    box-sizing: border-box;
 }

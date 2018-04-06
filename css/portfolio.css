@@ -1,5 +1,6 @@
 #portfolio{
-    text-align: center;    
+    text-align: center; 
+    background-color: #fff;
 }
 
 #portfolio h3 {
@@ -17,12 +18,11 @@
 }
 
 #portfolio div.views {
-    margin: 75px 0;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-row-gap: 68px;
+    
 }
 
 #portfolio div.views .view_1,
@@ -32,6 +32,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 230px 40px 60px 30px;
+    margin: 75px 0;
 }
 
 
@@ -48,7 +49,7 @@
 #portfolio div.views .view_3 h5,
 #portfolio div.views .view_4 h5 {
     text-align: center;
-    color: #000;
+    color: #37424f;
     font-family: 'HelveticaRegular', sans-serif;
     font-size: 26px;
     font-weight: 300;

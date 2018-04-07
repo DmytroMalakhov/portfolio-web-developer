@@ -166,10 +166,10 @@
         text-overflow: ellipsis;
     }
     
-    #portfolio #desktop-portfolio .view_1 button,
-    #portfolio #desktop-portfolio .view_2 button,
-    #portfolio #desktop-portfolio .view_3 button,
-    #portfolio #desktop-portfolio .view_4 button {
+    #portfolio #desktop-portfolio .view_1 a button,
+    #portfolio #desktop-portfolio .view_2 a button,
+    #portfolio #desktop-portfolio .view_3 a button,
+    #portfolio #desktop-portfolio .view_4 a button {
         background-color: #37424f;
         color: #fff;
         width: 165px;
@@ -178,7 +178,9 @@
         text-transform: uppercase;
         border-radius: 5px;
         box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
-
+        margin: auto;
+        padding: 6px 0px;
+        box-sizing: border-box;
     }
 }
 

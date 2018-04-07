@@ -1,80 +1,258 @@
 #portfolio{
     text-align: center; 
     background-color: #fff;
+    height: 400px;
 }
 
 #portfolio h3 {
     height: 50px;
     color: #37424f;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 2px;
     font-family: 'HelveticaBold', sans-serif;
-    background-image: url(../img/bg_880x50.jpeg);
-    font-size: 24px; 
+    font-size: 18px; 
     font-weight: bold;
     text-align: center;
     padding-top: 20px;
+    background-image: url(../img/bg_575x50.jpeg);
     box-sizing: border-box;
 }
 
-#portfolio div.views {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    
+#portfolio #calousePortfolio {
+    display: block;
 }
 
-#portfolio div.views .view_1,
-#portfolio div.views .view_2,
-#portfolio div.views .view_3,
-#portfolio div.views .view_4 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 230px 40px 60px 30px;
-    margin: 75px 0;
+#portfolio #desktop-portfolio {
+    display: none;
+}
+
+#portfolio #calousePortfolio .prev span,
+#portfolio #calousePortfolio .next span{
+    background-color: #37424f;
+    margin-top: 30px;
+}
+
+#portfolio #calousePortfolio div.views .view_1,
+#portfolio #calousePortfolio div.views .view_2,
+#portfolio #calousePortfolio div.views .view_3,
+#portfolio #calousePortfolio div.views .view_4 {
+    height: 350px;
+    position: relative;
+}
+
+#portfolio #calousePortfolio div.views .card-body {
+   padding-top: 20px;
 }
 
 
-#portfolio div.views .view_1 img,
-#portfolio div.views .view_2 img,
-#portfolio div.views .view_3 img,
-#portfolio div.views .view_4 img {
-    width: 313px;
-    margin-left: 60px;
-}
 
-#portfolio div.views .view_1 h5,
-#portfolio div.views .view_2 h5,
-#portfolio div.views .view_3 h5,
-#portfolio div.views .view_4 h5 {
+#portfolio #calousePortfolio div.views .view_1 h5,
+#portfolio #calousePortfolio div.views .view_2 h5,
+#portfolio #calousePortfolio div.views .view_3 h5,
+#portfolio #calousePortfolio div.views .view_4 h5 {
     text-align: center;
     color: #37424f;
     font-family: 'HelveticaRegular', sans-serif;
-    font-size: 26px;
+    font-size: 20px;
+    text-transform: uppercase;
     font-weight: 300;
-    margin-left: 5px;
 }
 
-#portfolio div.views .view_1 p,
-#portfolio div.views .view_2 p,
-#portfolio div.views .view_3 p,
-#portfolio div.views .view_4 p {
-    width: 313px;
+#portfolio #calousePortfolio div.views .view_1 p,
+#portfolio #calousePortfolio div.views .view_2 p,
+#portfolio #calousePortfolio div.views .view_3 p,
+#portfolio #calousePortfolio div.views .view_4 p {
     text-align: center;
-    margin-left: 60px;
+    color: #37424f;
+    font-family: 'HelveticaRegular', sans-serif;
 }
 
-#portfolio div.views .view_1 button,
-#portfolio div.views .view_2 button,
-#portfolio div.views .view_3 button,
-#portfolio div.views .view_4 button {
+#portfolio #calousePortfolio div.views .view_1 a,
+#portfolio #calousePortfolio div.views .view_2 a,
+#portfolio #calousePortfolio div.views .view_3 a,
+#portfolio #calousePortfolio div.views .view_4 a {
     background-color: #37424f;
     color: #fff;
-    width: 165px;
     text-align: center;
-    margin-left: 135px;
     text-transform: uppercase;
     border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px 115px;
     box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 992px) {
+    #portfolio{
+        text-align: center; 
+        background-color: #fff;
+        height: 100%;
+    }
+    
+    #portfolio h3 {
+        height: 50px;
+        color: #37424f;
+        text-transform: uppercase;
+        letter-spacing: px;
+        font-family: 'HelveticaBold', sans-serif;
+        background-image: url(../img/bg_880x50.jpeg);
+        font-size: 24px; 
+        font-weight: bold;
+        text-align: center;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    
+    #portfolio #calousePortfolio {
+        display: none;
+    }
+    
+    #portfolio #desktop-portfolio {
+        display: block;
+    }
+    
+    #portfolio #desktop-portfolio {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        
+    }
+    
+    #portfolio #desktop-portfolio .view_1,
+    #portfolio #desktop-portfolio .view_2,
+    #portfolio #desktop-portfolio .view_3,
+    #portfolio #desktop-portfolio .view_4 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 230px 40px 60px 30px;
+        margin: 75px 0;
+    }
+    
+    
+    #portfolio #desktop-portfolio .view_1 img,
+    #portfolio #desktop-portfolio .view_2 img,
+    #portfolio #desktop-portfolio .view_3 img,
+    #portfolio #desktop-portfolio .view_4 img {
+        width: 313px;
+        margin-left: 60px;
+    }
+    
+    #portfolio #desktop-portfolio .view_1 h5,
+    #portfolio #desktop-portfolio .view_2 h5,
+    #portfolio #desktop-portfolio .view_3 h5,
+    #portfolio #desktop-portfolio .view_4 h5 {
+        text-align: center;
+        color: #37424f;
+        font-family: 'HelveticaRegular', sans-serif;
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+    
+    #portfolio #desktop-portfolio .view_1 p,
+    #portfolio #desktop-portfolio .view_2 p,
+    #portfolio #desktop-portfolio .view_3 p,
+    #portfolio #desktop-portfolio .view_4 p {
+        width: 313px;
+        text-align: center;
+        color: #37424f;
+        font-family: 'HelveticaRegular', sans-serif;
+        margin-left: 60px;
+    }
+    
+    #portfolio #desktop-portfolio .view_1 button,
+    #portfolio #desktop-portfolio .view_2 button,
+    #portfolio #desktop-portfolio .view_3 button,
+    #portfolio #desktop-portfolio .view_4 button {
+        background-color: #37424f;
+        color: #fff;
+        width: 165px;
+        text-align: center;
+        margin-left: 135px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+
+    }
+}
+
+@media (max-width: 991px) {
+    #portfolio{
+        height: 500px;
+    }
+    
+    #portfolio #calousePortfolio div.views .view_1,
+    #portfolio #calousePortfolio div.views .view_2,
+    #portfolio #calousePortfolio div.views .view_3,
+    #portfolio #calousePortfolio div.views .view_4 {
+        height: 450px;
+        position: relative;
+    }
+    
+    #portfolio #calousePortfolio .prev span,
+    #portfolio #calousePortfolio .next span{
+        margin-top: 180px;
+    }
+}
+
+@media (max-width: 580px) {
+    #portfolio #calousePortfolio .prev span,
+    #portfolio #calousePortfolio .next span{
+        margin-top: 145px;
+    }
+}
+
+@media (max-width: 520px) {
+    #portfolio #calousePortfolio .prev span,
+    #portfolio #calousePortfolio .next span{
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 475px) {
+    #portfolio{
+        height: 450px;
+    }
+    
+    #portfolio #calousePortfolio div.views .view_1,
+    #portfolio #calousePortfolio div.views .view_2,
+    #portfolio #calousePortfolio div.views .view_3,
+    #portfolio #calousePortfolio div.views .view_4 {
+        height: 410px;
+        position: relative;
+    }
+        
+    #portfolio #calousePortfolio .prev span,
+    #portfolio #calousePortfolio .next span{
+        background-color: #37424f;
+        margin-top: 85px;
+    }
+}
+
+@media (max-width: 420px) {
+    #portfolio #calousePortfolio .prev span,
+    #portfolio #calousePortfolio .next span{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 360px) {
+    #portfolio #calousePortfolio .prev span,
+    #portfolio #calousePortfolio .next span{
+        margin-top: -30px;
+    }
+    #portfolio{
+        height: 430px;
+    }
+    
+    #portfolio #calousePortfolio div.views .view_1,
+    #portfolio #calousePortfolio div.views .view_2,
+    #portfolio #calousePortfolio div.views .view_3,
+    #portfolio #calousePortfolio div.views .view_4 {
+        height: 380px;
+        position: relative;
+    }
 }

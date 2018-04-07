@@ -1,5 +1,6 @@
 header .wrapper {
     max-width: 575px;
+    min-width: 320px;
     margin: auto;
 }
 
@@ -97,6 +98,12 @@ header .wrapper nav div.menu a.active {
         text-transform: uppercase;
         margin-top: -27px;
         padding-top: 35px;
+    }
+}
+
+@media (min-width: 768px) {
+    body header #start {
+        margin-left: -193px !important;
     }
 }
 

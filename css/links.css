@@ -1,34 +1,93 @@
 #links {
     background-image: url(../img/links.jpeg);
-    background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     -webkit-background-size: cover;
     background-size: cover;
-    height: 400px;
+    height: 300px;
 }
 
 #links h3 {
     height: 50px;
     color: #37424f;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 2px;
     font-family: 'HelveticaBold', sans-serif;
-    background-image: url(../img/bg_880x50.jpeg);
     font-size: 24px; 
     font-weight: bold;
     text-align: center;
     padding-top: 20px;
+    background-image: url(../img/bg_575x50.jpeg);
     box-sizing: border-box;
 }
 
-#links div {
-    padding-top: 125px;
+#links #calouselLinks {
+    display: block;
+}
+
+#links #desktop-links {
+    display: none;
+}
+
+#links #calouselLinks {
+    margin-top: 60px;
     text-align: center;
     box-sizing: border-box;
 }
 
-#links div img {
+#links #calouselLinks img {
     height: 100px;
     padding: 0 70px;
     box-sizing: border-box;
+}
+
+#links #calouselLinks .prev span,
+#links #calouselLinks .next span {
+    margin-top: 10px;
+    background-color: #37424f;
+}
+
+@media (min-width: 992px) {
+    #links {
+        background-image: url(../img/links.jpeg);
+        background-attachment: fixed;
+        background-position: center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 400px;
+    }
+
+    
+    #links h3 {
+        height: 50px;
+        color: #37424f;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-family: 'HelveticaBold', sans-serif;
+        background-image: url(../img/bg_880x50.jpeg);
+        font-size: 24px; 
+        font-weight: bold;
+        text-align: center;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+        
+    #links #calouselLinks {
+        display: none;
+    }
+    
+    #links #desktop-links {
+        display: block;
+    }
+    
+    #links #desktop-links {
+        padding-top: 125px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    #links #desktop-links img {
+        height: 100px;
+        padding: 0 70px;
+        box-sizing: border-box;
+    }
 }

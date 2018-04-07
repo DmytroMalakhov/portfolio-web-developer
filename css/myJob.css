@@ -30,7 +30,7 @@
 #myJob h4 {
     height: 30px;
     color: #37424f;
-    letter-spacing: 10px;
+    letter-spacing: 2px;
     font-family: 'HelveticaBold', sans-serif;
     font-size: 18px; 
     font-weight: bold;
@@ -69,6 +69,12 @@
     width: 100%;
     text-align: center;
     padding: 0 15px;
+}
+
+#myJob #calouselMyJob .prev span,
+#myJob #calouselMyJob .next span{
+    background-color: #37424f;
+    margin-top: -50px;
 }
 
 @media (min-width: 992px) {
@@ -128,16 +134,30 @@
         padding: 65px 0 75px 0;
         box-sizing: border-box;
     }
-    
+
     #myJob #desktop-img .idea {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 180px 30px 30px;
-        text-align: center;
     }
     
-    #myJob #desktop-img .idea img {
-        margin-left: 83px;
+    #myJob #desktop-img .project {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 180px 30px 30px;
+    }
+    
+    
+    #myJob #desktop-img .mobile {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 180px 30px 30px;
+    }
+    
+    #myJob #desktop-img .idea img,
+    #myJob #desktop-img .project img,
+    #myJob #desktop-img .mobile img {
+        margin: auto;
     }
     
     #myJob #desktop-img .idea h5,
@@ -146,46 +166,18 @@
         text-align: center;
         color: #37424f;
         font-family: 'HelveticaRegular', sans-serif;
-        font-size: 18px;
+        font-size: 26px;
+        text-transform: uppercase;
         font-weight: 300;
-    }
-    
-    #myJob #desktop-img .project h5 {
-        margin-left: 75px;
     }
     
     #myJob #desktop-img .idea p,
     #myJob #desktop-img .project p,
     #myJob #desktop-img .mobile p {
-        width: 100%;
+        margin: auto;
+        width: 220px;
+        color: #37424f;
+        font-family: 'HelveticaRegular', sans-serif;
         text-align: center;
-        margin-left: 0px;
-    }
-    
-    #myJob #desktop-img .project p {
-        margin-left: 45px;
-    }
-    
-    #myJob #desktop-img .project {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 180px 30px 30px;
-        text-align: center;
-    }
-    
-    #myJob #desktop-img .project img {
-        margin-left: 93px;
-        margin-top: 20px;
-    }
-    
-    #myJob #desktop-img .mobile {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 180px 30px 30px;
-        text-align: center;
-    }
-    
-    #myJob #desktop-img .mobile img {
-        margin-left: 92px;
     }
 }

@@ -1,13 +1,14 @@
 main .wrapper {
     max-width: 575px;
+    min-width: 320px;
     margin: auto;
 }
 
 #myPresentation {
     background-image: url(../img/bg_main.jpg);
-    background-position: top center;
+    background-position: top right;
     background-size: cover;
-    height: 100vh;
+    height: 300px;
 }
 
 #myPresentation h1 {
@@ -56,6 +57,31 @@ main .wrapper {
         font-weight: bold;
         margin-left: 10px;
         padding-top: 550px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+    }
+    
+    #myPresentation h2 {
+        color: #fff;
+        letter-spacing: 10px;
+        font-family: 'HelveticaBold', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10px;
+        padding-top: 20px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+    }
+}
+
+@media (min-width: 1024px) {
+    #myPresentation h1 {
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-family: 'HelveticaBold', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 10px;
+        padding-top: 350px;
         text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
     }
     

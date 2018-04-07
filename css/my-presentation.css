@@ -45,6 +45,7 @@ main .wrapper {
         background-image: url(../img/bg_main.jpg);
         background-attachment: fixed;
         background-position: top center;
+        -webkit-background-size: cover;
         background-size: cover;
         height: 100vh;
     }

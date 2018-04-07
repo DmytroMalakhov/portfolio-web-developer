@@ -39,9 +39,9 @@
     height: 350px;    
 }
 
-#portfolio #calousePortfolio div.views .card-body {
-   padding-top: 20px;
-}
+/*#portfolio #calousePortfolio div.views .card-body {*/
+/*   padding-top: 20px;*/
+/*}*/
 
 
 
@@ -182,7 +182,11 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
+    #portfolio{
+        height: 450px;
+    }
+    
     #portfolio #calousePortfolio div.views .view_1,
     #portfolio #calousePortfolio div.views .view_2,
     #portfolio #calousePortfolio div.views .view_3,
@@ -196,7 +200,102 @@
     }
 }
 
-@media (max-width: 425px) {
+
+
+@media (min-width: 571px) and (max-width: 767px) {
+#portfolio{
+        height: 500px;
+    }
+    
+    #portfolio #calousePortfolio div.views .view_1,
+    #portfolio #calousePortfolio div.views .view_2,
+    #portfolio #calousePortfolio div.views .view_3,
+    #portfolio #calousePortfolio div.views .view_4 {
+        height: 450px;
+        
+    }
+        
+    #portfolio #calousePortfolio .prev span,
+    #portfolio #calousePortfolio .next span{
+        background-color: #37424f;
+        margin-top: 180px;
+    }
+}
+
+@media (min-width: 511px) and (max-width: 570px) {
+    #portfolio{
+        height: 500px;
+    }
+    
+    #portfolio #calousePortfolio div.views .view_1,
+    #portfolio #calousePortfolio div.views .view_2,
+    #portfolio #calousePortfolio div.views .view_3,
+    #portfolio #calousePortfolio div.views .view_4 {
+        height: 450px;
+        
+    }
+        
+    #portfolio #calousePortfolio .prev span,
+    #portfolio #calousePortfolio .next span{
+        background-color: #37424f;
+        margin-top: 140px;
+    }
+}
+@media (min-width: 425px) and (max-width: 510px) {
+    #portfolio{
+        height: 500px;
+    }
+    
+    #portfolio #calousePortfolio div.views .view_1,
+    #portfolio #calousePortfolio div.views .view_2,
+    #portfolio #calousePortfolio div.views .view_3,
+    #portfolio #calousePortfolio div.views .view_4 {
+        height: 450px;
+        
+    }
+        
+    #portfolio #calousePortfolio .prev span,
+    #portfolio #calousePortfolio .next span{
+        background-color: #37424f;
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    #portfolio{
+        height: 500px;
+    }
+    
+    #portfolio #calousePortfolio div.views .view_1,
+    #portfolio #calousePortfolio div.views .view_2,
+    #portfolio #calousePortfolio div.views .view_3,
+    #portfolio #calousePortfolio div.views .view_4 {
+        height: 450px;
+        position: relative;
+    }
+        
+    #portfolio #calousePortfolio .prev span,
+    #portfolio #calousePortfolio .next span{
+        background-color: #37424f;
+        margin-top: 55px;
+    }
+    
+    #portfolio #calousePortfolio div.views .view_1 h5,
+    #portfolio #calousePortfolio div.views .view_2 h5,
+    #portfolio #calousePortfolio div.views .view_3 h5,
+    #portfolio #calousePortfolio div.views .view_4 h5 {
+        margin-top: 30px;
+    }
+    
+    #portfolio #calousePortfolio div.views .view_1 p,
+    #portfolio #calousePortfolio div.views .view_2 p,
+    #portfolio #calousePortfolio div.views .view_3 p,
+    #portfolio #calousePortfolio div.views .view_4 p {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
     #portfolio{
         height: 450px;
     }
@@ -212,46 +311,6 @@
     #portfolio #calousePortfolio .prev span,
     #portfolio #calousePortfolio .next span{
         background-color: #37424f;
-        margin-top: 80px;
-    }
-}
-
-@media (max-width: 375px) {
-    #portfolio{
-        height: 420px;
-    }
-    
-    #portfolio #calousePortfolio div.views .view_1,
-    #portfolio #calousePortfolio div.views .view_2,
-    #portfolio #calousePortfolio div.views .view_3,
-    #portfolio #calousePortfolio div.views .view_4 {
-        height: 370px;
-        
-    }
-        
-    #portfolio #calousePortfolio .prev span,
-    #portfolio #calousePortfolio .next span{
-        background-color: #37424f;
-        margin-top: 60px;
-    }
-}
-
-@media (max-width: 320px) {
-    #portfolio{
-        height: 410px;
-    }
-    
-    #portfolio #calousePortfolio div.views .view_1,
-    #portfolio #calousePortfolio div.views .view_2,
-    #portfolio #calousePortfolio div.views .view_3,
-    #portfolio #calousePortfolio div.views .view_4 {
-        height: 360px;
-        
-    }
-        
-    #portfolio #calousePortfolio .prev span,
-    #portfolio #calousePortfolio .next span{
-        background-color: #37424f;
-        margin-top: 18px;
+        margin-top: 0px;
     }
 }

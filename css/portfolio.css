@@ -18,7 +18,7 @@
     box-sizing: border-box;
 }
 
-#portfolio #calousePortfolio {
+#portfolio #calousePortfolio-mobile {
     display: block;
 }
 
@@ -26,29 +26,29 @@
     display: none;
 }
 
-#portfolio #calousePortfolio .prev span,
-#portfolio #calousePortfolio .next span{
+#portfolio #calousePortfolio-mobile .prev span,
+#portfolio #calousePortfolio-mobile .next span{
     background-color: #37424f;
     margin-top: 30px;
 }
 
-#portfolio #calousePortfolio div.views .view_1,
-#portfolio #calousePortfolio div.views .view_2,
-#portfolio #calousePortfolio div.views .view_3,
-#portfolio #calousePortfolio div.views .view_4 {
+#portfolio #calousePortfolio-mobile div.views .view_1,
+#portfolio #calousePortfolio-mobile div.views .view_2,
+#portfolio #calousePortfolio-mobile div.views .view_3,
+#portfolio #calousePortfolio-mobile div.views .view_4 {
     height: 350px;    
 }
 
-/*#portfolio #calousePortfolio div.views .card-body {*/
+/*#portfolio #calousePortfolio-mobile div.views .card-body {*/
 /*   padding-top: 20px;*/
 /*}*/
 
 
 
-#portfolio #calousePortfolio div.views .view_1 h5,
-#portfolio #calousePortfolio div.views .view_2 h5,
-#portfolio #calousePortfolio div.views .view_3 h5,
-#portfolio #calousePortfolio div.views .view_4 h5 {
+#portfolio #calousePortfolio-mobile div.views .view_1 h5,
+#portfolio #calousePortfolio-mobile div.views .view_2 h5,
+#portfolio #calousePortfolio-mobile div.views .view_3 h5,
+#portfolio #calousePortfolio-mobile div.views .view_4 h5 {
     text-align: center;
     color: #37424f;
     font-family: 'HelveticaRegular', sans-serif;
@@ -57,19 +57,19 @@
     font-weight: 300;
 }
 
-#portfolio #calousePortfolio div.views .view_1 p,
-#portfolio #calousePortfolio div.views .view_2 p,
-#portfolio #calousePortfolio div.views .view_3 p,
-#portfolio #calousePortfolio div.views .view_4 p {
+#portfolio #calousePortfolio-mobile div.views .view_1 p,
+#portfolio #calousePortfolio-mobile div.views .view_2 p,
+#portfolio #calousePortfolio-mobile div.views .view_3 p,
+#portfolio #calousePortfolio-mobile div.views .view_4 p {
     text-align: center;
     color: #37424f;
     font-family: 'HelveticaRegular', sans-serif;
 }
 
-#portfolio #calousePortfolio div.views .view_1 a,
-#portfolio #calousePortfolio div.views .view_2 a,
-#portfolio #calousePortfolio div.views .view_3 a,
-#portfolio #calousePortfolio div.views .view_4 a {
+#portfolio #calousePortfolio-mobile div.views .view_1 a,
+#portfolio #calousePortfolio-mobile div.views .view_2 a,
+#portfolio #calousePortfolio-mobile div.views .view_3 a,
+#portfolio #calousePortfolio-mobile div.views .view_4 a {
     background-color: #37424f;
     color: #fff;
     text-align: center;
@@ -104,7 +104,7 @@
         box-sizing: border-box;
     }
     
-    #portfolio #calousePortfolio {
+    #portfolio #calousePortfolio-mobile {
         display: none;
     }
     
@@ -189,15 +189,15 @@
         height: 450px;
     }
     
-    #portfolio #calousePortfolio div.views .view_1,
-    #portfolio #calousePortfolio div.views .view_2,
-    #portfolio #calousePortfolio div.views .view_3,
-    #portfolio #calousePortfolio div.views .view_4 {
+    #portfolio #calousePortfolio-mobile div.views .view_1,
+    #portfolio #calousePortfolio-mobile div.views .view_2,
+    #portfolio #calousePortfolio-mobile div.views .view_3,
+    #portfolio #calousePortfolio-mobile div.views .view_4 {
         height: 450px;
     }
     
-    #portfolio #calousePortfolio .prev span,
-    #portfolio #calousePortfolio .next span{
+    #portfolio #calousePortfolio-mobile .prev span,
+    #portfolio #calousePortfolio-mobile .next span{
         margin-top: 180px;
     }
 }
@@ -209,16 +209,16 @@
         height: 500px;
     }
     
-    #portfolio #calousePortfolio div.views .view_1,
-    #portfolio #calousePortfolio div.views .view_2,
-    #portfolio #calousePortfolio div.views .view_3,
-    #portfolio #calousePortfolio div.views .view_4 {
+    #portfolio #calousePortfolio-mobile div.views .view_1,
+    #portfolio #calousePortfolio-mobile div.views .view_2,
+    #portfolio #calousePortfolio-mobile div.views .view_3,
+    #portfolio #calousePortfolio-mobile div.views .view_4 {
         height: 450px;
         
     }
         
-    #portfolio #calousePortfolio .prev span,
-    #portfolio #calousePortfolio .next span{
+    #portfolio #calousePortfolio-mobile .prev span,
+    #portfolio #calousePortfolio-mobile .next span{
         background-color: #37424f;
         margin-top: 180px;
     }
@@ -229,16 +229,16 @@
         height: 500px;
     }
     
-    #portfolio #calousePortfolio div.views .view_1,
-    #portfolio #calousePortfolio div.views .view_2,
-    #portfolio #calousePortfolio div.views .view_3,
-    #portfolio #calousePortfolio div.views .view_4 {
+    #portfolio #calousePortfolio-mobile div.views .view_1,
+    #portfolio #calousePortfolio-mobile div.views .view_2,
+    #portfolio #calousePortfolio-mobile div.views .view_3,
+    #portfolio #calousePortfolio-mobile div.views .view_4 {
         height: 450px;
         
     }
         
-    #portfolio #calousePortfolio .prev span,
-    #portfolio #calousePortfolio .next span{
+    #portfolio #calousePortfolio-mobile .prev span,
+    #portfolio #calousePortfolio-mobile .next span{
         background-color: #37424f;
         margin-top: 140px;
     }
@@ -248,16 +248,16 @@
         height: 500px;
     }
     
-    #portfolio #calousePortfolio div.views .view_1,
-    #portfolio #calousePortfolio div.views .view_2,
-    #portfolio #calousePortfolio div.views .view_3,
-    #portfolio #calousePortfolio div.views .view_4 {
+    #portfolio #calousePortfolio-mobile div.views .view_1,
+    #portfolio #calousePortfolio-mobile div.views .view_2,
+    #portfolio #calousePortfolio-mobile div.views .view_3,
+    #portfolio #calousePortfolio-mobile div.views .view_4 {
         height: 450px;
         
     }
         
-    #portfolio #calousePortfolio .prev span,
-    #portfolio #calousePortfolio .next span{
+    #portfolio #calousePortfolio-mobile .prev span,
+    #portfolio #calousePortfolio-mobile .next span{
         background-color: #37424f;
         margin-top: 80px;
     }
@@ -268,31 +268,31 @@
         height: 500px;
     }
     
-    #portfolio #calousePortfolio div.views .view_1,
-    #portfolio #calousePortfolio div.views .view_2,
-    #portfolio #calousePortfolio div.views .view_3,
-    #portfolio #calousePortfolio div.views .view_4 {
+    #portfolio #calousePortfolio-mobile div.views .view_1,
+    #portfolio #calousePortfolio-mobile div.views .view_2,
+    #portfolio #calousePortfolio-mobile div.views .view_3,
+    #portfolio #calousePortfolio-mobile div.views .view_4 {
         height: 450px;
         position: relative;
     }
         
-    #portfolio #calousePortfolio .prev span,
-    #portfolio #calousePortfolio .next span{
+    #portfolio #calousePortfolio-mobile .prev span,
+    #portfolio #calousePortfolio-mobile .next span{
         background-color: #37424f;
         margin-top: 55px;
     }
     
-    #portfolio #calousePortfolio div.views .view_1 h5,
-    #portfolio #calousePortfolio div.views .view_2 h5,
-    #portfolio #calousePortfolio div.views .view_3 h5,
-    #portfolio #calousePortfolio div.views .view_4 h5 {
+    #portfolio #calousePortfolio-mobile div.views .view_1 h5,
+    #portfolio #calousePortfolio-mobile div.views .view_2 h5,
+    #portfolio #calousePortfolio-mobile div.views .view_3 h5,
+    #portfolio #calousePortfolio-mobile div.views .view_4 h5 {
         margin-top: 30px;
     }
     
-    #portfolio #calousePortfolio div.views .view_1 p,
-    #portfolio #calousePortfolio div.views .view_2 p,
-    #portfolio #calousePortfolio div.views .view_3 p,
-    #portfolio #calousePortfolio div.views .view_4 p {
+    #portfolio #calousePortfolio-mobile div.views .view_1 p,
+    #portfolio #calousePortfolio-mobile div.views .view_2 p,
+    #portfolio #calousePortfolio-mobile div.views .view_3 p,
+    #portfolio #calousePortfolio-mobile div.views .view_4 p {
         margin-top: 20px;
     }
 }
@@ -302,16 +302,16 @@
         height: 450px;
     }
     
-    #portfolio #calousePortfolio div.views .view_1,
-    #portfolio #calousePortfolio div.views .view_2,
-    #portfolio #calousePortfolio div.views .view_3,
-    #portfolio #calousePortfolio div.views .view_4 {
+    #portfolio #calousePortfolio-mobile div.views .view_1,
+    #portfolio #calousePortfolio-mobile div.views .view_2,
+    #portfolio #calousePortfolio-mobile div.views .view_3,
+    #portfolio #calousePortfolio-mobile div.views .view_4 {
         height: 400px;
         
     }
         
-    #portfolio #calousePortfolio .prev span,
-    #portfolio #calousePortfolio .next span{
+    #portfolio #calousePortfolio-mobile .prev span,
+    #portfolio #calousePortfolio-mobile .next span{
         background-color: #37424f;
         margin-top: 0px;
     }

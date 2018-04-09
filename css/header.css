@@ -28,7 +28,7 @@ header .wrapper nav div.menu a {
     font-family: 'HelveticaBold', sans-serif;
     color: #000 !important;
     text-transform: uppercase;
-    margin-top: -20px;
+    /*margin-top: -20px;*/
 }
 
 header .wrapper nav div.menu a.active {

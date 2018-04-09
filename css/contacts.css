@@ -5,10 +5,6 @@
     background-size: cover;
 }
 
-#contacts label {
-    display: none;
-}
-
 #contacts h3 {
     height: 50px;
     color: #37424f;
@@ -21,6 +17,10 @@
     padding-top: 20px;
     background-image: url(../img/bg_575x50.jpeg);
     box-sizing: border-box;
+}
+
+#contacts label {
+    display: none;
 }
 
 #contacts form {
@@ -67,25 +67,13 @@
 
 @media (min-width: 992px) {
     #contacts {
-        background-image: url(../img/contacts.jpg);
-        background-position: top right;
-        -webkit-background-size: cover;
-        background-size: cover;
         background-attachment: fixed;
     }
     
     #contacts h3 {
-        height: 50px;
-        color: #37424f;
-        text-transform: uppercase;
         letter-spacing: 10px;
-        font-family: 'HelveticaBold', sans-serif;
         background-image: url(../img/bg_880x50.jpeg);
         font-size: 24px; 
-        font-weight: bold;
-        text-align: center;
-        padding-top: 20px;
-        box-sizing: border-box;
     }
     
     #contacts label {
@@ -94,8 +82,6 @@
     
     #contacts form {
         padding: 75px 0;
-        text-align: center;
-        box-sizing: border-box;
     }
     
     #contacts form label[for="name"] {
@@ -132,39 +118,15 @@
     }
     
     #contacts form input {
-        height: 35px;
         width: 535px;
-        padding: 0 0 0 3px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #1d1d1d;
-        border-radius: 4px;
-        box-sizing: border-box;
-        color: #37424f;
     }
     
     #contacts form textarea {
-        height: 105px;
         width: 535px;
-        padding: 5px 0 0 3px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #1d1d1d;
-        border-radius: 4px;
-        box-sizing: border-box;
-        color: #37424f;
     }
     
     #contacts form button {
-        background-color: #37424f;
-        color: #fff;
         width: 165px;
-        text-align: center;
         margin-left: 520px;
-        height: 35px;
-        margin-top: 25px;
-        text-transform: uppercase;
-        border-radius: 5px;
-        box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
     }
 }

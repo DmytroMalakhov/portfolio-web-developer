@@ -1,5 +1,6 @@
 #about {
     background-color: #fff;
+    height: 100%
 }
 
 #about h3 {
@@ -17,7 +18,7 @@
 }
 
 #about div {
-    height: 320px;
+    height: 330px;
 }
 
 #about div img {
@@ -26,8 +27,7 @@
 
 #about div .info {
     text-align: center;
-    margin-bottom: 14px;
-    padding: 13px 15px;
+    padding: 20px 15px;
 }
 
 #about div .info p {
@@ -39,35 +39,45 @@
     font-weight: bold;
 }
 
+@media (min-width: 494px) {
+    #about div {
+        height: 300px;
+    }
+    
+    #about div .info {
+        padding: 20px 15px;
+    }
+}
+
+@media (min-width: 497px) {
+    #about div .info {
+        padding: 30px 15px;
+    }
+}
+
+@media (min-width: 563px) {
+    #about div {
+        height: 270px;
+    }
+}
+
 @media (min-width: 992px) {
     #about {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 50px 1fr;
-        background-color: #fff;
     }
     
     #about h3 {
-        height: 50px;
-        color: #37424f;
-        text-transform: uppercase;
         letter-spacing: 10px;
-        font-family: 'HelveticaBold', sans-serif;
-        font-size: 24px; 
-        font-weight: bold;
-        text-align: center;
-        padding-top: 20px;
         background-image: url(../img/bg_880x50.jpeg);
-        box-sizing: border-box;
         grid-column: 1 / -1;
         grid-row: 1 / 2;
     }
     
     #about div {
-        height: 290px;
-        grid-column: 1 / -1;
-        grid-row: 2 / 3;
         display: grid;
+        grid-column: 1 / -1;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(7, 1fr); 
     }
@@ -75,34 +85,16 @@
     #about div img {
         display: block;
         width: 198px;
-        margin-top: 50px;
-        margin-left: 30px;
-        grid-column: 1 / 2;
-        grid-row: 1 / 8;
+        margin-top: 45px;
+        margin-left: 60px;
     }
     
     #about div .info {
         display: grid;
-        text-align: center;
-        margin-bottom: 14px;
-        margin: 12px 0;
         grid-column: 2 / 4;
-        grid-row: 1 / 8;
     }
     
     #about div .info p {
-        margin-bottom: 14px;
         grid-column: 1 / 4;
-        font-family: 'HelveticaRegular', sans-serif;
-    }
-    
-    #about div .info p > strong {
-        font-weight: bold;
-    }
-}
-
-@media (min-width: 497px) {
-    #about div .info {
-        padding: 50px 15px;
     }
 }

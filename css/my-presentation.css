@@ -36,92 +36,59 @@ main .wrapper {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
 }
 
+@media (max-width: 350px) {
+    #myPresentation h2 {
+        font-size: 14px;
+    }
+}
+
 @media (min-width: 992px) {
     main .wrapper {
         max-width: 880px;
-        margin: auto;
     }
     
     #myPresentation {
-        background-image: url(../img/bg_main.jpg);
         background-attachment: fixed;
-        background-position: top center;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
         height: 100vh;
     }
     
     #myPresentation h1 {
-        color: #fff;
-        text-transform: uppercase;
         letter-spacing: 10px;
-        font-family: 'HelveticaBold', sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-        margin-left: 10px;
+        font-size: 28px;
         padding-top: 550px;
-        text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
     }
     
     #myPresentation h2 {
-        color: #fff;
         letter-spacing: 10px;
-        font-family: 'HelveticaBold', sans-serif;
-        font-size: 18px;
-        font-weight: bold;
-        margin-left: 10px;
+        font-size: 22px;
         padding-top: 20px;
-        text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
     }
 }
 
 @media (min-width: 1440px) {
     #myPresentation h1 {
-        color: #fff;
-        text-transform: uppercase;
         letter-spacing: 15px;
-        font-family: 'HelveticaBold', sans-serif;
         font-size: 36px;
-        font-weight: bold;
-        margin-left: 10px;
         padding-top: 550px;
-        text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
     }
     
     #myPresentation h2 {
-        color: #fff;
         letter-spacing: 15px;
-        font-family: 'HelveticaBold', sans-serif;
-        font-size: 25px;
-        font-weight: bold;
-        margin-left: 10px;
+        font-size: 26px;
         padding-top: 20px;
-        text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
     }
 }
 
-@media (max-width: 350px) {
+@media (min-width: 2000px) {
     #myPresentation h1 {
-        color: #fff;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-family: 'HelveticaBold', sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-        margin-left: 10px;
-        padding-top: 20px;
-        text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+        letter-spacing: 15px;
+        font-size: 48px;
+        padding-top: 1000px;
     }
     
     #myPresentation h2 {
-        color: #fff;
-        letter-spacing: 2px;
-        font-family: 'HelveticaBold', sans-serif;
-        font-size: 14px;
-        font-weight: bold;
-        margin-left: 10px;
-        padding-top: 10px;
-        text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+        letter-spacing: 15px;
+        font-size: 36px;
+        padding-top: 20px;
     }
 }

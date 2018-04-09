@@ -21,20 +21,10 @@ footer .wrapper p {
 @media (min-width: 992px) {
     footer .wrapper {
         max-width: 880px;
-        margin: auto;
     }
     
     footer .wrapper p {
-        height: 50px;
-        color: #37424f;
-        text-transform: uppercase;
         letter-spacing: 10px;
-        font-family: 'HelveticaBold', sans-serif;
         background-image: url(../img/bg_880x50.jpeg);
-        font-size: 24px; 
-        font-weight: bold;
-        text-align: center;
-        padding-top: 20px;
-        box-sizing: border-box;
     }
 }

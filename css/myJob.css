@@ -16,26 +16,24 @@
     box-sizing: border-box;
 }
 
-#myJob div.tools {
-    text-align: center;
+#myJob .tools {
     padding-top: 20px;
     padding-bottom: 30px;
     box-sizing: border-box;
 }
 
-#myJob div.tools img{
+#myJob .tools img{
     width: 320px;
 }
 
 #myJob h4 {
-    height: 30px;
     color: #37424f;
     letter-spacing: 2px;
     font-family: 'HelveticaBold', sans-serif;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
-    padding-top: 5px;
+    padding: 5px 0;
     box-sizing: border-box;
 }
 
@@ -43,139 +41,92 @@
     display: none;
 }
 
-#myJob #calouselMyJob {
+#myJob #carousel-my-job {
     padding: 25px 0;
-    height: 255px;
-    box-sizing: border-box;
-    text-align: center;
 }
 
-#myJob #calouselMyJob .carousel-item img {
+#myJob #carousel-my-job .carousel-item img {
     margin: auto;
     padding-bottom: 15px;
     height: 140px;
 }
 
-#myJob #calouselMyJob .carousel-item h5 {
+#myJob #carousel-my-job .carousel-item h5 {
     text-align: center;
     color: #37424f;
     font-family: 'HelveticaRegular', sans-serif;
     font-size: 18px;
-    font-weight: 300;
     padding-bottom: 15px;
 }
 
-#myJob #calouselMyJob .carousel-item p {
-    width: 100%;
+#myJob #carousel-my-job .carousel-item p {
+    /*width: 100%;*/
     text-align: center;
     padding: 0 15px;
 }
 
-#myJob #calouselMyJob .prev span,
-#myJob #calouselMyJob .next span{
-    background-color: #37424f;
-    margin-top: -50px;
+#myJob #carousel-my-job .prev span,
+#myJob #carousel-my-job .next span {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
 }
 
 @media (min-width: 992px) {
-    #myJob {
-        background-color: #fff;
-    }
-    
     #myJob h3 {
-        height: 50px;
-        color: #37424f;
-        text-transform: uppercase;
         letter-spacing: 10px;
-        font-family: 'HelveticaBold', sans-serif;
+        font-size: 24px;
         background-image: url(../img/bg_880x50.jpeg);
-        font-size: 24px; 
-        font-weight: bold;
-        text-align: center;
-        padding-top: 20px;
-        box-sizing: border-box;
     }
     
-    #myJob div.tools {
+    #myJob .tools {
         height: 390px;  
         text-align: center;
         padding-top: 60px;
         box-sizing: border-box;
     }
     
-    #myJob div.tools img{
+    #myJob .tools img{
         width: 672px;
     }
     
     #myJob h4 {
         height: 30px;
-        color: #37424f;
         letter-spacing: 10px;
-        font-family: 'HelveticaBold', sans-serif;
-        font-size: 18px; 
-        font-weight: bold;
-        text-align: center;
-        padding-top: 5px;
-        box-sizing: border-box;
     }
     
-    #myJob #desktop-img {
-        display: inline-block;
-    }
-    
-    #myJob #calouselMyJob {
+    #myJob #carousel-my-job {
         display: none;
     }
     
     #myJob #desktop-img {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr;
         padding: 65px 0 75px 0;
         box-sizing: border-box;
     }
 
-    #myJob #desktop-img .idea {
+    #myJob #desktop-img .element {
         display: grid;
-        grid-template-columns: 1fr;
         grid-template-rows: 180px 30px 30px;
     }
     
-    #myJob #desktop-img .project {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 180px 30px 30px;
-    }
-    
-    
-    #myJob #desktop-img .mobile {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 180px 30px 30px;
-    }
-    
-    #myJob #desktop-img .idea img,
-    #myJob #desktop-img .project img,
-    #myJob #desktop-img .mobile img {
+    #myJob #desktop-img .element img {
         margin: auto;
     }
     
-    #myJob #desktop-img .idea h5,
-    #myJob #desktop-img .project h5,
-    #myJob #desktop-img .mobile h5 {
+    #myJob #desktop-img .element h5 {
         text-align: center;
         color: #37424f;
         font-family: 'HelveticaRegular', sans-serif;
         font-size: 26px;
         text-transform: uppercase;
-        font-weight: 300;
     }
     
-    #myJob #desktop-img .idea p,
-    #myJob #desktop-img .project p,
-    #myJob #desktop-img .mobile p {
+    #myJob #desktop-img .element p {
         margin: auto;
-        width: 220px;
+        width: 270px;
         color: #37424f;
         font-family: 'HelveticaRegular', sans-serif;
         text-align: center;

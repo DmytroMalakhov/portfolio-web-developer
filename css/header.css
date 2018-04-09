@@ -16,44 +16,39 @@ header .wrapper nav {
     background-color: rgba(255, 255, 255, 0.01) !important;
 }
 
-header .wrapper nav div.menu {
-    box-sizing: border-box;    
+header .wrapper nav .menu {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     text-align: center;
 }
 
-header .wrapper nav div.menu a {
+header .wrapper nav .menu a {
     font-size: 14px;
     font-weight: bold;
     font-family: 'HelveticaBold', sans-serif;
     color: #000 !important;
     text-transform: uppercase;
-    /*margin-top: -20px;*/
 }
 
-header .wrapper nav div.menu a.active {
+header .wrapper nav .menu a.active {
     background-color: #37424f;
     color: #fff !important;
     text-transform: uppercase;
 }
 
 @media (min-width: 992px) {
-        header .wrapper {
+    header .wrapper {
         max-width: 880px;
-        margin: auto;
     }
     
     header .wrapper .fixed {
         position: fixed;
-        background-color: rgba(255, 255, 255, 0.98);
-        width: inherit;
+        z-index: 1;
     }
     
     header .wrapper img {
         height: 90px;
         transform: rotate(0deg);
         transition: ease 2s;
-        
         margin-bottom: 0px;
         position: relative;
         top: 16px;
@@ -65,29 +60,20 @@ header .wrapper nav div.menu a.active {
     }
     
     header .wrapper nav {
-        background-color: rgba(255, 255, 255, 0.01) !important;
-        
         margin-top: -27px;
     }
     
-    header .wrapper nav div.menu {
+    header .wrapper nav .menu {
         padding-top: 27px;
         box-sizing: border-box;
         height: 86px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        margin-left: 363px;
-        
+        margin-left: 353px;
         margin-bottom: -27px;
         position: relative;
-        left: 12px;
+        left: 16px;
     }
     
     header .wrapper nav div.menu a {
-        font-size: 14px;
-        font-weight: bold;
-        font-family: 'HelveticaBold', sans-serif;
-        color: #000 !important;
-        text-transform: uppercase;
         transform: rotate(0deg);
         overflow: hidden;
         transition: ease 3s;
@@ -97,23 +83,8 @@ header .wrapper nav div.menu a.active {
     
     header .wrapper nav div.menu a:hover {
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        transform: rotate(360deg);
+        transform: rotate(10deg);
         overflow: hidden;
         transition: ease 3s;
     }
-    
-    header .wrapper nav div.menu a.active {
-        background-color: #37424f;
-        color: #fff !important;
-        text-transform: uppercase;
-        margin-top: -27px;
-        padding-top: 35px;
-    }
 }
-
-@media (min-width: 768px) {
-    body header #start {
-        margin-left: -193px !important;
-    }
-}
-

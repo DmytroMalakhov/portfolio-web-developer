@@ -1,4 +1,5 @@
 $('.nav-item').click(swichClass);
+$('.navbar-brand').click(swichClass);
 
 function swichClass(e) {
   const clickedButton = e.target;
@@ -11,6 +12,14 @@ function swichClass(e) {
         } else {
             el.classList.remove('active');
         }
-    })
-  
+    });
 }
+
+$('header .wrapper img').hover(function(){
+    $(this).css("transform", "rotate(360deg)");
+    $(this).css("transition", "ease 2s");
+}, function () {
+    $(this).css("transform", "rotate(0deg)");
+    $(this).css("transition", "ease 2s");
+});
+

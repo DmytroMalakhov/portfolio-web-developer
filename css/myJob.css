@@ -17,6 +17,7 @@
 }
 
 #myJob .tools {
+    text-align: center;
     padding-top: 20px;
     padding-bottom: 30px;
     box-sizing: border-box;

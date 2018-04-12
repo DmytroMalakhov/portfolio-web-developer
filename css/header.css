@@ -33,6 +33,7 @@ header .wrapper nav .menu a.active {
     background-color: #37424f;
     color: #fff !important;
     text-transform: uppercase;
+    transform: rotate(2deg);
 }
 
 @media (min-width: 992px) {
@@ -47,18 +48,11 @@ header .wrapper nav .menu a.active {
     
     header .wrapper img {
         height: 90px;
-        transform: rotate(0deg);
-        transition: ease 2s;
         margin-bottom: 0px;
         position: relative;
         top: 16px;
     }
-    
-    header .wrapper img:hover {
-        transform: rotate(360deg);
-        transition: ease 2s;
-    }
-    
+
     header .wrapper nav {
         margin-top: -27px;
     }

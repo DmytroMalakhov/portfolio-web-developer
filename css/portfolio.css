@@ -41,7 +41,7 @@
    padding-top: 50px;
 }
 
-#portfolio #calousePortfolio-mobile div.views .view h5 {
+#portfolio #calousePortfolio-mobile .views .view h5 {
     text-align: center;
     color: #37424f;
     font-family: 'HelveticaRegular', sans-serif;
@@ -50,13 +50,13 @@
     font-weight: 300;
 }
 
-#portfolio #calousePortfolio-mobile div.views .view p {
+#portfolio #calousePortfolio-mobile .views .view p {
     text-align: center;
     color: #37424f;
     font-family: 'HelveticaRegular', sans-serif;
 }
 
-#portfolio #calousePortfolio-mobile div.views .view a {
+#portfolio #calousePortfolio-mobile .views .view .card-body a {
     background-color: #37424f;
     color: #fff;
     text-align: center;
@@ -117,7 +117,7 @@
         text-overflow: ellipsis;
     }
     
-    #portfolio #calousePortfolio-desktop div.views .view a {
+    #portfolio #calousePortfolio-desktop .views .view .card-body a {
         background-color: #37424f;
         color: #fff;
         text-align: center;

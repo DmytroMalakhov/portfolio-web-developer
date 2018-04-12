@@ -33,7 +33,6 @@ header .wrapper nav .menu a.active {
     background-color: #37424f;
     color: #fff !important;
     text-transform: uppercase;
-    transform: rotate(2deg);
 }
 
 @media (min-width: 992px) {
@@ -80,5 +79,12 @@ header .wrapper nav .menu a.active {
         transform: rotate(10deg);
         overflow: hidden;
         transition: ease 3s;
+    }
+
+    header .wrapper nav .menu a.active {
+        /*background-color: #37424f;*/
+        /*color: #fff !important;*/
+        /*text-transform: uppercase;*/
+        transform: rotate(10deg);
     }
 }

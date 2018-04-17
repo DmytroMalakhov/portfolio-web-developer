@@ -10,7 +10,7 @@ footer .wrapper p {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: 'HelveticaBold', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
     padding-top: 20px;
@@ -26,7 +26,7 @@ footer .wrapper p {
     footer .wrapper p {
         height: 100px;
         padding-top: 45px;
-        font-size: 24px;
+        font-size: 14px;
         letter-spacing: 10px;
     }
 }

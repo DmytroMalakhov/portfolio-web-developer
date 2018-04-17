@@ -19,11 +19,11 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: 'HelveticaBold', sans-serif;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     padding-top: 20px;
-    background-image: url(../img/bg_575x50.jpeg);
+    background-color: #f1f1f1;
     box-sizing: border-box;
 }
 
@@ -77,9 +77,10 @@
     }
     
     #portfolio h3 {
-        letter-spacing: 10px;
-        background-image: url(../img/bg_880x50.jpeg);
+        height: 100px;
+        padding-top: 45px;
         font-size: 24px;
+        letter-spacing: 10px;
     }
     
     #portfolio #calousePortfolio-desktop .prev span,

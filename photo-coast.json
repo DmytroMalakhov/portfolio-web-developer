@@ -1,0 +1,10 @@
+{
+  "1" : {
+    "name" : "photo-coast",
+    "link" : "https://dmytromalakhov.github.io/portfolio-photo-coast",
+    "img" : "photo-coast.jpg",
+    "modalImg" : "modal-photo-coast.jpg",
+    "descr" : "This is my first site that I posted on the Internet. The template was based on the bootstrap.",
+    "position" : 1
+  }
+}

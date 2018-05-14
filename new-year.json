@@ -1,7 +1,7 @@
 {
   "4" : {
     "name" : "New Year",
-    "link" : "https://dmytromalakhov.github.io/New-year",
+    "link" : "https://dmytromalakhov.github.io/new-year",
     "img" : "new-year.jpg",
     "modalImg" : "modal-new-year.jpg",
     "descr" : "The development of this site is based on the practice of parallax javascript. Was designed as a greeting card for the new year.",

@@ -6,21 +6,24 @@ $(document).ready(function () {
 });
 
 function init() {
-    $.getJSON("photo-coast.json", mPhotoCoast);
-    $.getJSON("photo-coast.json", dPhotoCoast);
-    $.getJSON("photo-coast.json", modalPhotoCoast);
-    $.getJSON("hookah.json", mHookah);
-    $.getJSON("hookah.json", dHookah);
-    $.getJSON("hookah.json", modalHookah);
-    $.getJSON("web-dev.json", mWebDev);
-    $.getJSON("web-dev.json", dWebDev);
-    $.getJSON("web-dev.json", modalWebDev);
-    $.getJSON("new-year.json", mNewYear);
-    $.getJSON("new-year.json", dNewYear);
-    $.getJSON("new-year.json", modalNewYear);
-    $.getJSON("stub.json", mStub);
-    $.getJSON("stub.json", dStub);
-    $.getJSON("stub.json", modalStub);
+    $.getJSON("portfolio.json", portfolioOut);
+}
+
+function portfolioOut(data){
+  let out='';
+  for (let key in data) {
+    out += `<div class="view">
+                    <a href="${data[key].link}" target='_blank'>
+                        <img class="card-img-top" src="img/${data[key].img}" alt="photo of web page '${data[key].name}'">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">${data[key].name}</h5>
+                        <p class="card-text">${data[key].descr}</p>
+                        <a href="${data[key].link}" target='_blank'>open</a>
+                    </div>
+                </div>`;
+  }
+  $('.js-portfolio').html(out);
 }
 
 function swichClass(e) {
@@ -44,3 +47,8 @@ $('header .wrapper img').hover(function(){
     $(this).css("transform", "rotate(0deg)");
     $(this).css("transition", "ease 2s");
 });
+
+
+
+
+

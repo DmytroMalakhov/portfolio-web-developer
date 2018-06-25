@@ -56,16 +56,16 @@ main .wrapper {
         letter-spacing: 10px;
         font-size: 28px;
         position: absolute;
-        top: 550px;
-        left: 10px;
+        top: 80%;
+        left: 5%;
     }
     
     #myPresentation h2 {
         letter-spacing: 10px;
         font-size: 22px;
         position: absolute;
-        top: 600px;
-        left: 10px;
+        top: 90%;
+        left: 5%;
     }
 }
 
@@ -73,13 +73,11 @@ main .wrapper {
     #myPresentation h1 {
         letter-spacing: 15px;
         font-size: 36px;
-        padding-top: 550px;
     }
     
     #myPresentation h2 {
         letter-spacing: 15px;
         font-size: 26px;
-        padding-top: 20px;
     }
 }
 
@@ -87,12 +85,11 @@ main .wrapper {
     #myPresentation h1 {
         letter-spacing: 15px;
         font-size: 48px;
-        padding-top: 1000px;
     }
     
     #myPresentation h2 {
         letter-spacing: 15px;
         font-size: 36px;
-        padding-top: 20px;
+        top: 85%;
     }
 }

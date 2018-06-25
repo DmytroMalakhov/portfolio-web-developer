@@ -49,18 +49,23 @@ main .wrapper {
     #myPresentation {
         background-attachment: fixed;
         height: 100vh;
+        position: relative;
     }
     
     #myPresentation h1 {
         letter-spacing: 10px;
         font-size: 28px;
-        padding-top: 550px;
+        position: absolute;
+        top: 550px;
+        left: 10px;
     }
     
     #myPresentation h2 {
         letter-spacing: 10px;
         font-size: 22px;
-        padding-top: 20px;
+        position: absolute;
+        top: 600px;
+        left: 10px;
     }
 }
 

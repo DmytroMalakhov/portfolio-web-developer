@@ -20,6 +20,7 @@ function portfolioOut(data){
                         <h5 class="card-title">${data[key].name}</h5>
                         <p class="card-text">${data[key].descr}</p>
                         <a href="${data[key].link}" target='_blank'>open</a>
+                        <div class="margin"></div>
                     </div>
                 </div>`;
   }

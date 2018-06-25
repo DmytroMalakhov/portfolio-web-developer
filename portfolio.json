@@ -1,50 +1,34 @@
 {
   "1" : {
-    "name" : "photo-coast",
-    "link" : "https://dmytromalakhov.github.io/portfolio-photo-coast",
-    "img" : "photo-coast.jpg",
-    "modalImg" : "modal-photo-coast.jpg",
-    "descr" : "This is my first site that I posted on the Internet. The template was based on the bootstrap.",
-    "position" : 1
+    "name" : "the bigchiller company",
+    "link" : "https://dmytromalakhov.github.io/The-bigchiller/",
+    "img" : "The bigchiller company.jpg",
+    "descr" : "Test layout for the company"
+
   },
   "2" : {
     "name" : "Це hookah братан",
     "link" : "http://l93635i4.beget.tech",
     "img" : "hookah.jpg",
-    "modalImg" : "modal-hookah.jpg",
-    "descr" : "This is my first online store, which I published on the Internet. The interface was developed by me.",
-    "position" : 2
+    "descr" : "This is my first online store, which I published on the Internet. The interface was developed by me."
   },
   "3" : {
-    "name" : "WebDev",
-    "link" : "https://dmytromalakhov.github.io/portfolio-web-dev",
-    "img" : "web-dev.jpg",
-    "modalImg" : "modal-web-dev.jpg",
-    "descr" : "This site is one of my last works. In which were connected Bootstrap and Javascript.",
-    "position" : 3
-  },
-  "4" : {
     "name" : "New Year",
     "link" : "https://dmytromalakhov.github.io/new-year",
     "img" : "new-year.jpg",
-    "modalImg" : "modal-new-year.jpg",
-    "descr" : "The development of this site is based on the practice of parallax javascript. Was designed as a greeting card for the new year.",
-    "position" : 4
+    "descr" : "The development of this site is based on the practice of parallax javascript. Was designed as a greeting card for the new year."
   },
-  "5" : {
+  "4" : {
     "name" : "WebDev",
     "link" : "https://dmytromalakhov.github.io/portfolio-web-dev",
     "img" : "web-dev.jpg",
-    "modalImg" : "modal-web-dev.jpg",
-    "descr" : "This site is one of my last works. In which were connected Bootstrap and Javascript.",
-    "position" : 3
+    "descr" : "This site is one of my last works. In which were connected Bootstrap and Javascript."
   },
-  "6" : {
-    "name" : "stub's photo",
-    "link" : "https://cdn.crowdfundinsider.com/wp-content/uploads/2017/11/Surprise-Oops-OMG-Oh-Oh-Sorry-1.jpg",
-    "img" : "stub.jpg",
-    "modalImg" : "modal-stub.jpg",
-    "descr" : "Here soon will be new web page.",
-    "position" : 5
+  "5" : {
+    "name" : "photo-coast",
+    "link" : "https://dmytromalakhov.github.io/portfolio-photo-coast",
+    "img" : "photo-coast.jpg",
+    "descr" : "This is my first site that I posted on the Internet. The template was based on the bootstrap."
   }
+
 }

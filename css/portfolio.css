@@ -68,6 +68,10 @@
   text-decoration: none;
 }
 
+#portfolio #portfolio-box .views .view .card-body .margin {
+  margin-bottom: 30px;
+}
+
 @media (min-width: 992px) {
   #portfolio h3 {
     height: 100px;

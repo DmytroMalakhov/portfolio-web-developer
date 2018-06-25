@@ -88,7 +88,7 @@
     #about div img {
         display: block;
         width: 198px;
-        margin-top: 45px;
+        margin-top: 65px;
         margin-left: 60px;
     }
     
@@ -99,5 +99,6 @@
     
     #about div .info p {
         grid-column: 1 / 4;
+        margin-bottom: 11px;
     }
 }

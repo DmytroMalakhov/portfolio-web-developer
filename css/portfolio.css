@@ -4,7 +4,7 @@
 
 #portfolio {
   text-align: center;
-  background-color: #fff;
+  background-color: #37424f;
   height: 100%;
 }
 
@@ -22,15 +22,26 @@
   box-sizing: border-box;
 }
 
-#portfolio #portfolio-box div.views .view {
-  border-bottom: 1px solid #000
+#portfolio #portfolio-box .view {
+  width: 99%;
+  margin: auto;
+}
+#portfolio #portfolio-box .view:first-child {
+  padding-top: 30px;
+  box-sizing: border-box;
 }
 
-#portfolio #portfolio-box div.views .view:last-child {
-  border-bottom: none;
+#portfolio #portfolio-box .view .card-img-top{
+  border-radius: 15px;
 }
 
-#portfolio #portfolio-box div.views .view h5 {
+#portfolio #portfolio-box .view .card-body {
+  background-color: #fff;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+#portfolio #portfolio-box .view .card-body h5 {
   text-align: center;
   color: #37424f;
   font-family: 'HelveticaRegular', sans-serif;
@@ -39,7 +50,7 @@
   font-weight: 300;
 }
 
-#portfolio #portfolio-box div.views .view p {
+#portfolio #portfolio-box .view .card-body p {
   text-align: center;
   color: #37424f;
   font-family: 'HelveticaRegular', sans-serif;
@@ -49,7 +60,7 @@
   margin-bottom: 20px;
 }
 
-#portfolio #portfolio-box .views .view .card-body a {
+#portfolio #portfolio-box .view .card-body a {
   background-color: #37424f;
   color: #fff;
   text-align: center;
@@ -61,26 +72,25 @@
   transition: 1s ease;
 }
 
-#portfolio #portfolio-box .views .view .card-body a:hover {
+#portfolio #portfolio-box .view .card-body a:hover {
   background-color: #ccc;
   color: #37424f;
   transition: 1s ease;
   text-decoration: none;
 }
 
-#portfolio #portfolio-box .views .view .card-body .margin {
+#portfolio #portfolio-box .view .card-body .margin {
   margin-bottom: 30px;
 }
 
 @media (min-width: 992px) {
   #portfolio h3 {
-    height: 100px;
-    padding-top: 45px;
+    height: 60px;
     font-size: 24px;
     letter-spacing: 10px;
   }
 
-  #portfolio #portfolio-box div.views .view p {
+  #portfolio #portfolio-box .view .card-body p{
     white-space: nowrap;
     overflow: hidden;
   }

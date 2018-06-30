@@ -27,12 +27,18 @@ header .wrapper nav .menu a {
     font-family: 'HelveticaBold', sans-serif;
     color: #000 !important;
     text-transform: uppercase;
+    height: 50px;
+    margin-top: -12px;
+    padding-top: 18px;
 }
 
 header .wrapper nav .menu a.active {
     background-color: #37424f;
     color: #fff !important;
     text-transform: uppercase;
+    height: 50px;
+    margin-top: -12px;
+    padding-top: 18px;
 }
 
 @media (min-width: 992px) {
@@ -43,10 +49,11 @@ header .wrapper nav .menu a.active {
     header .wrapper .fixed {
         position: fixed;
         z-index: 1;
+        width: 880px;
     }
     
     header .wrapper img {
-        height: 90px;
+        height: 60px;
         margin-bottom: 0px;
         position: relative;
         top: 16px;
@@ -57,21 +64,20 @@ header .wrapper nav .menu a.active {
     }
     
     header .wrapper nav .menu {
-        padding-top: 27px;
+        padding-top: 14px;
         box-sizing: border-box;
-        height: 86px;
+        height: 54px;
         margin-left: 363px;
         margin-bottom: -27px;
         position: relative;
-        left: 12px;
+        left: 39px;
+        border-radius: 20px;
     }
     
     header .wrapper nav div.menu a {
         transform: rotate(0deg);
         overflow: hidden;
         transition: ease 3s;
-        margin-top: -27px;
-        padding-top: 35px;
     }
     
     header .wrapper nav div.menu a:hover {
@@ -79,12 +85,14 @@ header .wrapper nav .menu a.active {
         transform: rotate(10deg);
         overflow: hidden;
         transition: ease 3s;
+        border-radius: 20px;
+        height: 50px;
+        margin-top: -12px;
+        padding-top: 18px;
     }
 
     header .wrapper nav .menu a.active {
-        /*background-color: #37424f;*/
-        /*color: #fff !important;*/
-        /*text-transform: uppercase;*/
         transform: rotate(10deg);
+        border-radius: 20px;
     }
 }

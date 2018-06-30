@@ -1,136 +1,137 @@
 #myJob {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 #myJob h3 {
-    height: 50px;
-    color: #37424f;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: 'HelveticaBold', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 20px;
-    background-color: #f1f1f1;
-    box-sizing: border-box;
+  height: 50px;
+  color: #37424f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'HelveticaBold', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
 }
 
 #myJob .tools {
-    text-align: center;
-    margin-top: 15px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    box-sizing: border-box;
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
 }
 
-#myJob .tools img{
-    width: 320px;
+#myJob .tools img {
+  width: 320px;
 }
 
 #myJob h4 {
-    color: #37424f;
-    letter-spacing: 2px;
-    font-family: 'HelveticaBold', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    padding: 5px 0;
-    box-sizing: border-box;
+  color: #37424f;
+  letter-spacing: 2px;
+  font-family: 'HelveticaBold', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0;
+  box-sizing: border-box;
 }
 
 #myJob #desktop-img {
-    display: none;
+  display: none;
 }
 
 #myJob #carousel-my-job {
-    padding: 25px 0;
+  padding: 25px 0;
 }
 
 #myJob #carousel-my-job .carousel-item img {
-    margin: auto;
-    padding-bottom: 15px;
-    height: 140px;
+  margin: auto;
+  padding-bottom: 15px;
+  height: 140px;
 }
 
 #myJob #carousel-my-job .carousel-item h5 {
-    text-align: center;
-    color: #37424f;
-    font-family: 'HelveticaRegular', sans-serif;
-    font-size: 18px;
-    padding-bottom: 15px;
+  text-align: center;
+  color: #37424f;
+  font-family: 'HelveticaBold', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-bottom: 15px;
 }
 
 #myJob #carousel-my-job .carousel-item p {
-    /*width: 100%;*/
-    text-align: center;
-    padding: 0 15px;
+  font-family: 'HelveticaRegular', sans-serif;
+  text-align: center;
+  padding: 0 15px;
 }
 
 #myJob #carousel-my-job .prev span,
 #myJob #carousel-my-job .next span {
-    background-color: rgba(0, 0, 0, 0.4);
-    background-size: 50px;
-    height: 50px;
-    width: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 @media (min-width: 992px) {
-    #myJob h3 {
-        height: 60px;
-        letter-spacing: 10px;
-        font-size: 24px;
-    }
-    
-    #myJob .tools {
-        height: 390px;  
-        text-align: center;
-        padding-top: 60px;
-        box-sizing: border-box;
-    }
-    
-    #myJob .tools img{
-        width: 672px;
-    }
-    
-    #myJob h4 {
-        height: 30px;
-        letter-spacing: 10px;
-    }
-    
-    #myJob #carousel-my-job {
-        display: none;
-    }
-    
-    #myJob #desktop-img {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        padding: 65px 0 75px 0;
-        box-sizing: border-box;
-    }
+  #myJob h3 {
+    height: 60px;
+    letter-spacing: 10px;
+    font-size: 24px;
+  }
 
-    #myJob #desktop-img .element {
-        display: grid;
-        grid-template-rows: 180px 30px 30px;
-    }
-    
-    #myJob #desktop-img .element img {
-        margin: auto;
-    }
-    
-    #myJob #desktop-img .element h5 {
-        text-align: center;
-        color: #37424f;
-        font-family: 'HelveticaRegular', sans-serif;
-        font-size: 26px;
-        text-transform: uppercase;
-    }
-    
-    #myJob #desktop-img .element p {
-        margin: auto;
-        width: 270px;
-        color: #37424f;
-        font-family: 'HelveticaRegular', sans-serif;
-        text-align: center;
-    }
+  #myJob .tools {
+    height: 390px;
+    text-align: center;
+    padding-top: 60px;
+    box-sizing: border-box;
+  }
+
+  #myJob .tools img {
+    width: 672px;
+  }
+
+  #myJob h4 {
+    height: 30px;
+    letter-spacing: 10px;
+  }
+
+  #myJob #carousel-my-job {
+    display: none;
+  }
+
+  #myJob #desktop-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 65px 0 75px 0;
+    box-sizing: border-box;
+  }
+
+  #myJob #desktop-img .element {
+    display: grid;
+    grid-template-rows: 180px 30px 30px;
+  }
+
+  #myJob #desktop-img .element img {
+    margin: auto;
+  }
+
+  #myJob #desktop-img .element h5 {
+    text-align: center;
+    color: #37424f;
+    font-family: 'HelveticaBold', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+
+  #myJob #desktop-img .element p {
+    margin: auto;
+    width: 270px;
+    color: #37424f;
+    font-family: 'HelveticaRegular', sans-serif;
+    text-align: center;
+  }
 }

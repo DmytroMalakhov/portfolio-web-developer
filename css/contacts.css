@@ -1,142 +1,155 @@
 #contacts {
-    background-image: url(../img/contacts.jpg);
-    background-position: top center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    margin-top: -1px
+  background-image: url(../img/contacts.jpg);
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin-top: -1px
 }
 
 #contacts h3 {
-    height: 50px;
-    color: #37424f;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: 'HelveticaBold', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 20px;
-    background-color: #f1f1f1;
-    box-sizing: border-box;
-}
-
-#contacts label {
-    display: none;
+  height: 50px;
+  color: #37424f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'HelveticaBold', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
 }
 
 #contacts form {
-    padding: 45px 0;
-    text-align: center;
-    box-sizing: border-box;
+  padding: 45px 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#contacts form label {
+  display: none;
 }
 
 #contacts form input {
-    height: 35px;
-    width: 320px;
-    padding: 0 0 0 3px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #1d1d1d;
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: #37424f;
+  height: 35px;
+  width: 320px;
+  padding: 0 0 0 3px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #1d1d1d;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #37424f;
 }
 
 #contacts form textarea {
-    height: 105px;
-    width: 320px;
-    padding: 5px 0 0 3px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #1d1d1d;
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: #37424f;
+  height: 105px;
+  width: 320px;
+  padding: 5px 0 0 3px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #1d1d1d;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #37424f;
+}
+
+#contacts form input[placeholder],
+#contacts form textarea[placeholder]{
+  font-family: 'HelveticaRegular', sans-serif;
 }
 
 #contacts form button {
-    background-color: #37424f;
-    color: #fff;
-    width: 320px;
-    text-align: center;
-    height: 35px;
-    margin-top: 25px;
-    text-transform: uppercase;
-    border-radius: 5px;
-    box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
-    border: none;
-    transition: 1s ease;
+  background-color: #37424f;
+  font-family: 'HelveticaRegular', sans-serif;
+  color: #fff;
+  width: 320px;
+  text-align: center;
+  height: 35px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+  border: none;
+  transition: 1s ease;
 }
 
 #contacts form button:hover {
-    background-color: #ccc;
-    color: #37424f;
-    transition: 1s ease;
-    text-decoration: none;
+  background-color: #ccc;
+  color: #37424f;
+  transition: 1s ease;
+  text-decoration: none;
 }
 
 @media (min-width: 992px) {
-    #contacts {
-        height: 620px;
-    }
-    
-    #contacts h3 {
-        height: 60px;
-        font-size: 24px;
-        letter-spacing: 10px;
-    }
-    
-    #contacts label {
-        display: inline-block;
-    }
-    
-    #contacts form {
-        padding: 115px 0;
-    }
-    
-    #contacts form label[for="name"] {
-        padding-left: 31px;
-        margin-right: 44px;
-        vertical-align: top;
-        position: relative;
-        top: 12px;
-        font-weight: bold;
-        color: #fff;
-        text-shadow: 0px 0px 20px #000;
-    }
-    
-    #contacts form label[for="email"] {
-        padding-left: 30px;
-        margin-right: 30px;
-        vertical-align: top;
-        position: relative;
-        top: 12px;
-        font-weight: bold;
-        color: #fff;
-        text-shadow: 0px 0px 20px #000;
-    }
-    
-    #contacts form label[for="message"] {
-        padding-left: 30px;
-        margin-right: 23px;
-        vertical-align: top;
-        position: relative;
-        top: 12px;
-        font-weight: bold;
-        color: #fff;
-        text-shadow: 0px 0px 20px #000;
-    }
-    
-    #contacts form input {
-        width: 535px;
-    }
-    
-    #contacts form textarea {
-        width: 535px;
-    }
-    
-    #contacts form button {
-        width: 165px;
-        margin-left: 520px;
-    }
+  #contacts {
+    height: 470px;
+  }
+
+  #contacts h3 {
+    height: 60px;
+    font-size: 24px;
+    letter-spacing: 10px;
+  }
+
+  #contacts form {
+    padding: 75px 0;
+  }
+
+  #contacts form label {
+    display: inline-block;
+    font-family: "HelveticaBold", sans-serif;
+  }
+
+  #contacts form label[for="name"] {
+    padding-left: 31px;
+    margin-right: 44px;
+    vertical-align: top;
+    position: relative;
+    top: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 0px 20px #000;
+  }
+
+  #contacts form label[for="email"] {
+    padding-left: 30px;
+    margin-right: 30px;
+    vertical-align: top;
+    position: relative;
+    top: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 0px 20px #000;
+  }
+
+  #contacts form label[for="message"] {
+    padding-left: 30px;
+    margin-right: 23px;
+    vertical-align: top;
+    position: relative;
+    top: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 0px 20px #000;
+  }
+
+  #contacts form input {
+    width: 535px;
+  }
+
+  #contacts form textarea {
+    width: 535px;
+  }
+
+  #contacts form input[placeholder],
+  #contacts form textarea[placeholder] {
+    font-family: "HelveticaRegular", sans-serif;
+  }
+
+  #contacts form button {
+    font-family: "HelveticaRegular", sans-serif;
+    width: 165px;
+    margin-left: 520px;
+  }
 }

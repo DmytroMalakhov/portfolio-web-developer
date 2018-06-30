@@ -17,18 +17,20 @@
   <div class="wrapper">
     <div class="fixed">
       <nav class="navbar navbar-expand-lg navbar-light bg-light top-menu">
-        <a class="navbar-brand smooth" href="#start"><img src="img/logo.png" alt="logo DM"></a>
+        <a class="navbar-brand smooth" href="#start">
+          <img src="img/logo.png" alt="logo DM">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="menu navbar-nav">
-            <a data-tab="1" class="nav-item nav-link smooth" href="#about">about</a>
-            <a data-tab="2" class="nav-item nav-link smooth" href="#myJob">my job</a>
-            <a data-tab="3" class="nav-item nav-link smooth" href="#links">links</a>
-            <a data-tab="4" class="nav-item nav-link smooth" href="#portfolio">portfolio</a>
-            <a data-tab="5" class="nav-item nav-link smooth" href="#contacts">contacts</a>
+            <a data-tab="1" class="nav-item nav-link smooth" href="#about" data-target="link">about</a>
+            <a data-tab="2" class="nav-item nav-link smooth" href="#myJob" data-target="link">my job</a>
+            <a data-tab="3" class="nav-item nav-link smooth" href="#links" data-target="link">links</a>
+            <a data-tab="4" class="nav-item nav-link smooth" href="#portfolio" data-target="link">portfolio</a>
+            <a data-tab="5" class="nav-item nav-link smooth" href="#contacts" data-target="link">contacts</a>
           </div>
         </div>
       </nav>
@@ -179,7 +181,7 @@
     <section id="portfolio">
       <h3>PORTFOLIO</h3>
       <div id="portfolio-box">
-              <div class="element js-portfolio"></div>
+        <div class="element js-portfolio"></div>
       </div>
     </section>
     <section id="contacts">
@@ -207,10 +209,6 @@
   </div>
 </footer>
 
-<div class="modal fade modal-portfolio-1 js-modal-portfolio" tabindex="-1" role="dialog"
-     aria-labelledby="myLargeModalLabel"
-     aria-hidden="true"></div>
-
 <div class="modal fade thank-you" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -231,7 +229,6 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
         integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
         crossorigin="anonymous"></script>
-
 <script src="js/smooth-scroll.js"></script>
 <script src="js/menu-scroll-active.js"></script>
 <script src="js/form-ajax.js"></script>

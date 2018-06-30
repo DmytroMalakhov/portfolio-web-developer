@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import "../css/reset.css";
 @import "../css/header.css";
 @import "../css/my-presentation.css";
@@ -9,18 +8,17 @@
 @import "../css/contacts.css";
 @import "../css/footer.css";
 @import "../css/modal.css";
+
 @font-face {
-		font-family: "HelveticaRegular";
-		src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
-		src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+  font-family: "HelveticaRegular";
+  src: url("../fonts/HelveticaRegular.ttf");
 }
 
 @font-face {
-		font-family: "HelveticaBold";
-		src: url("../fonts/HelveticaBold/HelveticaBold.eot");
-		src: url("../fonts/HelveticaBold/HelveticaBold.eot?#iefix")format("embedded-opentype"),
+  font-family: "HelveticaBold";
+  src: url("../fonts/HelveticaBold.ttf");
 }
 
 body {
-	background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }

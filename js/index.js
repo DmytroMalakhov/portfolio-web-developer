@@ -1,16 +1,22 @@
 $(document).ready(function () {
-    init()
+  init()
 
-    $('.nav-item').click(swichClass);
-    $('.navbar-brand').click(swichClass);
+  $('.nav-item').click(swichClass);
+  $('.navbar-brand').click(swichClass);
+
+  $('a[data-target^="link"]').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+    $a = $($(this).attr('href'));
+    return false;
+  });
 });
 
 function init() {
-    $.getJSON("portfolio.json", portfolioOut);
+  $.getJSON("portfolio.json", portfolioOut);
 }
 
-function portfolioOut(data){
-  let out='';
+function portfolioOut(data) {
+  let out = '';
   for (let key in data) {
     out += `<div class="view">
                     <a href="${data[key].link}" target='_blank'>
@@ -30,26 +36,21 @@ function portfolioOut(data){
 function swichClass(e) {
   const clickedButton = e.target;
   const tabNum = clickedButton.dataset.tab;
-  
+
   document.querySelectorAll('.nav-item')
-    .forEach( el => {
-        if (el.dataset.tab === tabNum) {
-            el.classList.add('active');
-        } else {
-            el.classList.remove('active');
-        }
+    .forEach(el => {
+      if (el.dataset.tab === tabNum) {
+        el.classList.add('active');
+      } else {
+        el.classList.remove('active');
+      }
     });
 }
 
-$('header .wrapper img').hover(function(){
-    $(this).css("transform", "rotate(360deg)");
-    $(this).css("transition", "ease 2s");
+$('header .wrapper img').hover(function () {
+  $(this).css("transform", "rotate(360deg)");
+  $(this).css("transition", "ease 2s");
 }, function () {
-    $(this).css("transform", "rotate(0deg)");
-    $(this).css("transition", "ease 2s");
+  $(this).css("transform", "rotate(0deg)");
+  $(this).css("transition", "ease 2s");
 });
-
-
-
-
-

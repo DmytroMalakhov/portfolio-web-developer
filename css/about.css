@@ -18,7 +18,7 @@
 }
 
 #about div {
-  height: 320px;
+  height: 335px;
   margin-top: 15px;
 }
 
@@ -39,6 +39,12 @@
 #about div .info p > strong {
   font-weight: bold;
   font-family: 'HelveticaBold', sans-serif;
+}
+
+@media (min-width: 324px) {
+  #about div {
+    height: 320px;
+  }
 }
 
 @media (min-width: 339px) {

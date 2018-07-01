@@ -18,7 +18,7 @@
 }
 
 #about div {
-  height: 330px;
+  height: 320px;
   margin-top: 15px;
 }
 
@@ -28,7 +28,7 @@
 
 #about div .info {
   text-align: center;
-  padding: 20px 15px;
+  padding: 0 15px;
 }
 
 #about div .info p {
@@ -41,27 +41,21 @@
   font-family: 'HelveticaBold', sans-serif;
 }
 
-@media (min-width: 494px) {
+@media (min-width: 339px) {
   #about div {
-    height: 300px;
-  }
-
-  #about div .info {
-    padding: 20px 15px;
-    box-sizing: border-box;
+    height: 290px;
   }
 }
 
-@media (min-width: 497px) {
-  #about div .info {
-    padding: 30px 15px;
-    box-sizing: border-box;
+@media (min-width: 519px) {
+  #about div {
+    height: 275px;
   }
 }
 
-@media (min-width: 563px) {
+@media (min-width: 520px) {
   #about div {
-    height: 270px;
+    height: 260px;
   }
 }
 
@@ -90,13 +84,14 @@
   #about div img {
     display: block;
     width: 198px;
-    margin-top: 65px;
+    margin-top: 38px;
     margin-left: 60px;
   }
 
   #about div .info {
     display: grid;
     grid-column: 2 / 4;
+    margin-top: 7px;
   }
 
   #about div .info p {

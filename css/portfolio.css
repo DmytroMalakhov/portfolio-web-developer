@@ -25,6 +25,7 @@
 #portfolio #portfolio-box .view {
   width: 99%;
   margin: auto;
+  padding-bottom: 30px;
 }
 
 #portfolio #portfolio-box .view:first-child {
@@ -38,7 +39,6 @@
 
 #portfolio #portfolio-box .view .card-body {
   background-color: #fff;
-  margin-bottom: 30px;
   border-radius: 15px;
 }
 

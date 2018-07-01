@@ -3,32 +3,38 @@
     "name" : "the bigchiller company",
     "link" : "https://dmytromalakhov.github.io/The-bigchiller/",
     "img" : "The bigchiller company.jpg",
-    "descr" : "Test layout for the company"
+    "descr" : "I used Bootstrap and modal windows. You can find on my Github - 'The-bigchiller'"
 
   },
   "2" : {
+    "name" : "image",
+    "link" : "https://dmytromalakhov.github.io/test/",
+    "img" : "Image.jpg",
+    "descr" : "I used BEM, Sass and Gulp. The page without Bootstrap, and it's adaptive. You can find the page on my Github. You can find on my Github - 'Image'"
+
+  },
+  "3" : {
     "name" : "Це hookah братан",
     "link" : "http://l93635i4.beget.tech",
     "img" : "hookah.jpg",
-    "descr" : "This is my first online store, which I published on the Internet. The interface was developed by me."
+    "descr" : "This is my first online store, which I published on the Internet. I used CMS Wordpress."
   },
-  "3" : {
+  "4" : {
     "name" : "New Year",
     "link" : "https://dmytromalakhov.github.io/new-year",
     "img" : "new-year.jpg",
-    "descr" : "The development of this site is based on the practice of parallax javascript. Was designed as a greeting card for the new year."
+    "descr" : "The development of this site is based on the practice of parallax javascript. Was designed as a greeting page for the new year. You can find on my Github - 'new-year'"
   },
-  "4" : {
+  "5" : {
     "name" : "WebDev",
     "link" : "https://dmytromalakhov.github.io/portfolio-web-dev",
     "img" : "web-dev.jpg",
-    "descr" : "This site is one of my last works. In which were connected Bootstrap and Javascript."
+    "descr" : "I used Bootstrap. You can find on my Github - 'portfolio-web-dev'"
   },
-  "5" : {
+  "6" : {
     "name" : "photo-coast",
     "link" : "https://dmytromalakhov.github.io/portfolio-photo-coast",
     "img" : "photo-coast.jpg",
-    "descr" : "This is my first site that I posted on the Internet. The template was based on the bootstrap."
+    "descr" : "This is my first site that I posted on the Internet. The template was based with Bootstrap. You can find on my Github - 'portfolio-photo-coast'"
   }
-
 }

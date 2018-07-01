@@ -28,5 +28,6 @@ footer .wrapper p {
     padding-top: 45px;
     font-size: 14px;
     letter-spacing: 10px;
+    box-sizing: border-box;
   }
 }

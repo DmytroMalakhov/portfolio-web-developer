@@ -22,6 +22,7 @@ main .wrapper {
   margin-left: 10px;
   padding-top: 20px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+  box-sizing: border-box;
 }
 
 #myPresentation h2 {
@@ -33,6 +34,7 @@ main .wrapper {
   margin-left: 10px;
   padding-top: 10px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+  box-sizing: border-box;
 }
 
 @media (max-width: 350px) {

@@ -48,12 +48,14 @@
 
   #about div .info {
     padding: 20px 15px;
+    box-sizing: border-box;
   }
 }
 
 @media (min-width: 497px) {
   #about div .info {
     padding: 30px 15px;
+    box-sizing: border-box;
   }
 }
 

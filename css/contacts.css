@@ -94,6 +94,7 @@
 
   #contacts form {
     padding: 75px 0;
+    box-sizing: border-box;
   }
 
   #contacts form label {
@@ -110,6 +111,7 @@
     font-weight: bold;
     color: #fff;
     text-shadow: 0px 0px 20px #000;
+    box-sizing: border-box;
   }
 
   #contacts form label[for="email"] {
@@ -121,6 +123,7 @@
     font-weight: bold;
     color: #fff;
     text-shadow: 0px 0px 20px #000;
+    box-sizing: border-box;
   }
 
   #contacts form label[for="message"] {
@@ -132,6 +135,7 @@
     font-weight: bold;
     color: #fff;
     text-shadow: 0px 0px 20px #000;
+    box-sizing: border-box;
   }
 
   #contacts form input {

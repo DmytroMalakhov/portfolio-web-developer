@@ -31,6 +31,12 @@
 #links #carousel-links-mobile {
   text-align: center;
   box-sizing: border-box;
+  height: 100px;
+}
+
+#links #carousel-links-mobile .carousel-item {
+  padding-top: 20px;
+  box-sizing: border-box;
 }
 
 #links #carousel-links-mobile a {
@@ -77,6 +83,11 @@
     margin-top: 165px;
   }
 
+  #links #carousel-links-desktop .carousel-item {
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+
   #links #carousel-links-desktop a {
     color: #f1f1f1;
     font-size: 60px;
@@ -84,7 +95,7 @@
   }
 
   #links #carousel-links-desktop a:last-child {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   #links #carousel-links-desktop .prev span,
@@ -93,5 +104,6 @@
     background-size: 50px;
     height: 50px;
     width: 50px;
+    margin-top: 30px;
   }
 }

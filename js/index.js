@@ -6,8 +6,6 @@ $(document).ready(function () {
 
   $('a[data-target^="link"]').on('click', function () {
     $('.navbar-collapse').collapse('hide');
-    $a = $($(this).attr('href'));
-    return false;
   });
 });
 

@@ -17,7 +17,7 @@ if ($(window).width() > 991) {
       if (target.length) {
         event.preventDefault();
         $('html, body').stop().animate({
-          scrollTop: target.offset().top - 180
+          scrollTop: target.offset().top - 190
         }, 1500);
       }
     });

@@ -1,47 +1,44 @@
-{
-  "1" : {
-    "name" : "photomark",
-    "link" : "https://dmytromalakhov.github.io/photomark/",
-    "img" : "photomark.jpg",
-    "descr" : "Test page. You can find on my Github - 'photomark'"
-
+[
+  {
+    "name": "photomark",
+    "link": "https://dmytromalakhov.github.io/photomark/",
+    "img": "photomark.jpg",
+    "descr": "Test page. You can find on my Github - 'photomark'"
   },
-  "2" : {
-    "name" : "the bigchiller company",
-    "link" : "https://dmytromalakhov.github.io/The-bigchiller/",
-    "img" : "The bigchiller company.jpg",
-    "descr" : "I used Bootstrap and modal windows. You can find on my Github - 'The-bigchiller'"
-
+  {
+    "name": "the bigchiller company",
+    "link": "https://dmytromalakhov.github.io/The-bigchiller/",
+    "img": "The bigchiller company.jpg",
+    "descr": "I used Bootstrap and modal windows. You can find on my Github - 'The-bigchiller'"
   },
-  "3" : {
-    "name" : "image",
-    "link" : "https://dmytromalakhov.github.io/test/",
-    "img" : "Image.jpg",
-    "descr" : "I used BEM, Sass and Gulp. The page without Bootstrap, and it's adaptive. You can find the page on my Github. You can find on my Github - 'Image'"
-
+  {
+    "name": "image",
+    "link": "https://dmytromalakhov.github.io/test/",
+    "img": "Image.jpg",
+    "descr": "I used BEM, Sass and Gulp. The page without Bootstrap, and it's adaptive. You can find the page on my Github. You can find on my Github - 'Image'"
   },
-  "4" : {
-    "name" : "Це hookah братан",
-    "link" : "http://l93635i4.beget.tech",
-    "img" : "hookah.jpg",
-    "descr" : "This is my first online store, which I published on the Internet. I used CMS Wordpress."
+  {
+    "name": "Це hookah братан",
+    "link": "http://l93635i4.beget.tech",
+    "img": "hookah.jpg",
+    "descr": "This is my first online store, which I published on the Internet. I used CMS Wordpress."
   },
-  "5" : {
-    "name" : "New Year",
-    "link" : "https://dmytromalakhov.github.io/new-year",
-    "img" : "new-year.jpg",
-    "descr" : "The development of this site is based on the practice of parallax javascript. Was designed as a greeting page for the new year. You can find on my Github - 'new-year'"
+  {
+    "name": "new year",
+    "link": "https://dmytromalakhov.github.io/new-year",
+    "img": "new-year.jpg",
+    "descr": "The development of this site is based on the practice of parallax javascript. Was designed as a greeting page for the new year. You can find on my Github - 'new-year'"
   },
-  "6" : {
-    "name" : "WebDev",
-    "link" : "https://dmytromalakhov.github.io/portfolio-web-dev",
-    "img" : "web-dev.jpg",
-    "descr" : "I used Bootstrap. You can find on my Github - 'portfolio-web-dev'"
+  {
+    "name": "web Dev",
+    "link": "https://dmytromalakhov.github.io/portfolio-web-dev",
+    "img": "web-dev.jpg",
+    "descr": "I used Bootstrap. You can find on my Github - 'portfolio-web-dev'"
   },
-  "7" : {
-    "name" : "photo-coast",
-    "link" : "https://dmytromalakhov.github.io/portfolio-photo-coast",
-    "img" : "photo-coast.jpg",
-    "descr" : "This is my first site that I posted on the Internet. The template was based with Bootstrap. You can find on my Github - 'portfolio-photo-coast'"
+  {
+    "name": "photo coast",
+    "link": "https://dmytromalakhov.github.io/portfolio-photo-coast",
+    "img": "photo-coast.jpg",
+    "descr": "This is my first site that I posted on the Internet. The template was based with Bootstrap. You can find on my Github - 'portfolio-photo-coast'"
   }
-}
+]

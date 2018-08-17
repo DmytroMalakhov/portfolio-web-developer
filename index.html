@@ -40,8 +40,8 @@
 <main>
   <div class="wrapper">
     <section id="myPresentation">
-      <h1>Dmytro Malakhov</h1>
-      <h2>Web Developer</h2>
+      <h2>Dmytro Malakhov</h2>
+      <h3>Web Developer</h3>
     </section>
     <section id="about">
       <h3>about</h3>
@@ -181,7 +181,12 @@
     <section id="portfolio">
       <h3>PORTFOLIO</h3>
       <div id="portfolio-box">
-        <div class="element js-portfolio"></div>
+        <div id="slide" class="slide-container element">
+          <a id="prev" class="carousel-control-prev-icon"></a>
+          <a id="next" class="carousel-control-next-icon"></a>
+        </div>
+        <br>
+        <div id="dots"></div>
       </div>
     </section>
     <section id="contacts">
@@ -209,11 +214,11 @@
   </div>
 </footer>
 
-<div class="modal fade thank-you" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade thank-you" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <h1>Thank you</h1>
-      <p>Your mail have been send</p>
+      <p>Your text have been send</p>
     </div>
   </div>
 </div>

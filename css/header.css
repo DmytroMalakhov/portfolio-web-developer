@@ -63,6 +63,16 @@ header .wrapper nav .menu a.active {
     margin-bottom: 0;
     position: relative;
     top: 16px;
+    transition: ease 2s;
+  }
+
+  header .wrapper img:hover{
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: ease 2s;
   }
 
   header .wrapper nav .menu {

@@ -12,7 +12,7 @@ main .wrapper {
   height: 300px;
 }
 
-#myPresentation h1 {
+#myPresentation h2 {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -25,7 +25,7 @@ main .wrapper {
   box-sizing: border-box;
 }
 
-#myPresentation h2 {
+#myPresentation h3 {
   color: #fff;
   letter-spacing: 2px;
   font-family: 'HelveticaBold', sans-serif;
@@ -38,7 +38,7 @@ main .wrapper {
 }
 
 @media (max-width: 350px) {
-  #myPresentation h2 {
+  #myPresentation h3 {
     font-size: 14px;
   }
 }
@@ -54,7 +54,7 @@ main .wrapper {
     position: relative;
   }
 
-  #myPresentation h1 {
+  #myPresentation h2 {
     letter-spacing: 10px;
     font-size: 28px;
     position: absolute;
@@ -62,7 +62,7 @@ main .wrapper {
     left: 5%;
   }
 
-  #myPresentation h2 {
+  #myPresentation h3 {
     letter-spacing: 10px;
     font-size: 22px;
     position: absolute;
@@ -72,24 +72,24 @@ main .wrapper {
 }
 
 @media (min-width: 1440px) {
-  #myPresentation h1 {
+  #myPresentation h2 {
     letter-spacing: 15px;
     font-size: 36px;
   }
 
-  #myPresentation h2 {
+  #myPresentation h3 {
     letter-spacing: 15px;
     font-size: 26px;
   }
 }
 
 @media (min-width: 2000px) {
-  #myPresentation h1 {
+  #myPresentation h2 {
     letter-spacing: 15px;
     font-size: 48px;
   }
 
-  #myPresentation h2 {
+  #myPresentation h3 {
     letter-spacing: 15px;
     font-size: 36px;
     top: 85%;
